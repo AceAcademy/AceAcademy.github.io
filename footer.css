@@ -1,0 +1,55 @@
+.footer{
+font-family: 'Ubuntu', sans-serif;
+background-color: #22264b;
+padding-bottom: 5%;
+}
+.img-responsive{
+width: 50%;
+}
+.row{
+margin: auto;
+color: #FFFF;
+}
+.fas{
+float: right;
+padding-right: 50%;
+padding-top: 3px;
+}
+.fab{
+font-size: 150%;
+}
+.fa-instagram{
+padding-left: 20%;
+}
+.fa-youtube{
+padding-left: 20%;
+}
+#socialicons{
+  padding-bottom: 10%;
+}
+hr {
+    height: 1px;
+    border-top: 1px solid #e6cf8b;
+    margin: 1em 0;
+    width: 30%;
+}
+#titles{
+  padding-bottom: 0px;
+}
+a {
+  color: #FFFF;
+}
+a:hover , a:active{
+  color: #e6cf8b;
+  text-decoration: none;
+}
+#footeritems:hover , #footeritems:active{
+  color: #e6cf8b;
+  text-decoration: none;
+}
+#aceCertificationBottomPage{
+  color: #FFFF;
+  margin: auto;
+  text-align: left;
+  padding-top: 5%;
+}
