@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Ek+Mukta:700|Muli:200,300,400");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
 html, body {
   height: 100%;
 }
@@ -38,9 +38,9 @@ h1, .h1 {
   transition: ease-in-out 0.3s;
 }
 .btn-primary, .btn-primary:link, .btn-primary:visited {
-  border-color: #fc0;
-  background-color: #fc0;
-  color: #000;
+  border-color: #22264b;
+  background-color: #22264b;
+  color: #fff;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
   padding-right: 40px;
