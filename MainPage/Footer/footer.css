@@ -1,6 +1,6 @@
 .footer{
 font-family: 'Ubuntu', sans-serif;
-background-color: #22264b;
+background-color: #133420;
 padding-bottom: 5%;
 }
 .img-responsive{
@@ -29,7 +29,7 @@ padding-left: 20%;
 }
 hr {
     height: 1px;
-    border-top: 1px solid #e6cf8b;
+    border-top: 1px solid #C9DD33;
     margin: 1em 0;
     width: 30%;
 }
@@ -40,7 +40,7 @@ a {
   color: #FFFF;
 }
 a:hover , a:active{
-  color: #e6cf8b;
+  color: #C9DD33;
   text-decoration: none;
 }
 #footeritems:hover , #footeritems:active{
