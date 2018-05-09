@@ -1,7 +1,15 @@
 .row {
     display: flex;
+    padding: 10px;
+    display: table;
 }
 
 .column {
-    flex: 50%;
+    float: left;
+    width: 50%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
