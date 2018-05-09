@@ -18,7 +18,7 @@ h1, .h1 {
   font-family: 'Ubuntu', sans-serif;
   font-size: 16px;
   line-height: 38px;
-  border-radius: 0;
+  border-radius: 2;
   -webkit-transition: ease-in-out 0.3s;
   transition: ease-in-out 0.3s;
 }
@@ -43,16 +43,27 @@ h1, .h1 {
   color: #fff;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
-  padding-right: 40px;
-  border-color: #fc0;
-  background-color: #fc0;
-  color: #000;
+  padding-right: 3%;
+  border-color: #143421;
+  background-color: #143421;
+  color: #fff;
   box-shadow: none;
 }
 .btn-primary:hover:hover, .btn-primary:focus:hover, .btn-primary:active:hover, .btn-primary.active:hover, .btn-primary:hover:focus, .btn-primary:focus:focus, .btn-primary:active:focus, .btn-primary.active:focus, .btn-primary:hover:active, .btn-primary:focus:active, .btn-primary:active:active, .btn-primary.active:active, .btn-primary:hover.active, .btn-primary:focus.active, .btn-primary:active.active, .btn-primary.active.active {
-  border-color: #fc0;
-  background-color: #fc0;
-  color: #000;
+  border-color: #20CF51;
+  background-color: #20CF51;
+  color: #072233;
+  box-shadow: none;
+}
+#tutorButton{
+  border-color: #072233;
+  background-color: #072233;
+  color: #fff;
+}
+#tutorButton:hover:hover, #tutorButton:focus:hover, #tutorButton:active:hover, #tutorButton.active:hover, #tutorButton:hover:focus, #tutorButton:focus:focus, #tutorButton:active:focus, #tutorButton.active:focus, #tutorButton:hover:active, #tutorButton:focus:active, #tutorButton:active:active, #tutorButton.active:active, #tutorButton:hover.active, #tutorButton:focus.active, #tutorButton:active.active, #tutorButton.active.active {
+  border-color: #1EB2FC;
+  background-color: #1EB2FC;
+  color: #072233;
   box-shadow: none;
 }
 .btn-primary:hover .fa, .btn-primary:focus .fa, .btn-primary:active .fa, .btn-primary.active .fa {
@@ -76,7 +87,7 @@ h1, .h1 {
   right: 0;
   top: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0.2, 0, 0, 0);
 }
 .jumbotron h1 {
   font-size: inherit;
@@ -101,7 +112,7 @@ h1, .h1 {
   top: 0;
   bottom: 0;
   width: 5px;
-  background-color: #fc0;
+  background-color: #2FCD57;
 }
 .js .jumbotronContainerBefore {
   width: 0;
@@ -119,29 +130,10 @@ h1, .h1 {
   bottom: 0;
 }
 .jumbotronFigure img {
-  display: block;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  max-width: 100%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  max-width:100%;
 }
-.js .jumbotronFigure {
-  opacity: 0;
-}
-.no-js .jumbotronFigure {
-  opacity: 1;
-}
-@keyframes jumbotronFigureVisible {
-  100% {
-    transform: scale(1.1);
-  }
-}
-.jumbotronFigure.visible {
-  animation-duration: 30s;
-  animation-fill-mode: both;
-  animation-name: jumbotronFigureVisible;
+.image{
+position: absolute;
 }
 .jumbotronHeader {
   margin-bottom: 15px;
@@ -153,6 +145,7 @@ h1, .h1 {
   font-family: 'Ubuntu', sans-serif;
   font-size: 14px;
   line-height: 20px;
+  color: #072233;
 }
 .jumbotronCategory::before {
   content: "";
@@ -162,7 +155,7 @@ h1, .h1 {
   top: 9px;
   width: 15px;
   height: 2px;
-  background-color: #fc0;
+  background-color: #2FCD57;
 }
 .js .jumbotronCategory {
   left: -15px;
@@ -177,10 +170,9 @@ h1, .h1 {
   margin-top: 3px;
   font-weight: 700;
   font-family: 'Ubuntu', sans-serif;
-  font-size: 60px;
+  font-size: 50px;
   line-height: 60px;
-  text-transform: uppercase;
-  color: #fc0;
+  color: #3ACB5C;
 }
 .js .jumbotronTitle {
   left: -15px;
@@ -197,6 +189,7 @@ h1, .h1 {
   font-family: 'Ubuntu', sans-serif;
   font-size: 16px;
   line-height: 22px;
+  color: #072233;
 }
 .jumbotronBody p {
   font-weight: inherit;
@@ -220,6 +213,7 @@ h1, .h1 {
   .jumbotronFigure img {
     max-width: none;
     max-height: 100%;
+    opacity: 1;
   }
 }
 @media (max-width: 767px) {

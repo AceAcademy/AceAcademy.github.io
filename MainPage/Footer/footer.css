@@ -1,6 +1,6 @@
 .footer{
 font-family: 'Ubuntu', sans-serif;
-background-color: #133420;
+background-color: #072233;
 padding-bottom: 5%;
 }
 .img-responsive{
@@ -29,7 +29,7 @@ padding-left: 20%;
 }
 hr {
     height: 1px;
-    border-top: 1px solid #FECB2F;
+    border-top: 1px solid #3ACB5C;
     margin: 1em 0;
     width: 30%;
 }
@@ -40,11 +40,11 @@ a {
   color: #FFFF;
 }
 a:hover , a:active{
-  color: #FECB2F;
+  color: 	#3ACB5C;
   text-decoration: none;
 }
 #footeritems:hover , #footeritems:active{
-  color: #FECB2F;
+  color: #3ACB5C;
   text-decoration: none;
 }
 #aceCertificationBottomPage{
