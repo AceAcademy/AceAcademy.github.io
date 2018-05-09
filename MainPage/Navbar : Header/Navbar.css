@@ -1,10 +1,7 @@
 .navbar {
   background-color: #133420;
-}
-
-.navbar-nav {
-    font-family: "Ubuntu" , sans-serif;
-    line-height: 40px;
-    font-weight: bold;
-    font-size: 25px;
+  font-family: "Ubuntu" , sans-serif;
+  line-height: 40px;
+  font-weight: bold;
+  font-size: 25px;
 }
