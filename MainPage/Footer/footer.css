@@ -29,7 +29,7 @@ padding-left: 20%;
 }
 hr {
     height: 1px;
-    border-top: 1px solid #C9DD33;
+    border-top: 1px solid #FECB2F;
     margin: 1em 0;
     width: 30%;
 }
@@ -40,11 +40,11 @@ a {
   color: #FFFF;
 }
 a:hover , a:active{
-  color: #C9DD33;
+  color: #FECB2F;
   text-decoration: none;
 }
 #footeritems:hover , #footeritems:active{
-  color: #e6cf8b;
+  color: #FECB2F;
   text-decoration: none;
 }
 #aceCertificationBottomPage{

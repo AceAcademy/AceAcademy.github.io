@@ -15,7 +15,7 @@ h1, .h1 {
   border-width: 2px;
   height: 40px;
   font-weight: 700;
-  font-family: "Ek Mukta", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 16px;
   line-height: 38px;
   border-radius: 0;
@@ -38,8 +38,8 @@ h1, .h1 {
   transition: ease-in-out 0.3s;
 }
 .btn-primary, .btn-primary:link, .btn-primary:visited {
-  border-color: #22264b;
-  background-color: #22264b;
+  border-color: #143421;
+  background-color: #143421;
   color: #fff;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
@@ -150,7 +150,7 @@ h1, .h1 {
   display: block;
   position: relative;
   padding-left: 25px;
-  font-family: "Muli", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 14px;
   line-height: 20px;
 }
@@ -176,7 +176,7 @@ h1, .h1 {
   position: relative;
   margin-top: 3px;
   font-weight: 700;
-  font-family: "Ek Mukta", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 60px;
   line-height: 60px;
   text-transform: uppercase;
@@ -194,7 +194,7 @@ h1, .h1 {
   position: relative;
   margin-bottom: 30px;
   font-weight: 200;
-  font-family: "Muli", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 16px;
   line-height: 22px;
 }
