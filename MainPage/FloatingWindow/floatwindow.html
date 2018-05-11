@@ -24,9 +24,25 @@
 <body>
 
 <div id="floatButton">
-  display: block;
-  <button class="btn btn-primary">Enter Info</button>
+  <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Enter Info</button>
 </div>
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" id="closeButtonModal">&times;</button>
+        <h4 class="modal-title">Join Us</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
 
 <!--JS LIBRARIES-->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
