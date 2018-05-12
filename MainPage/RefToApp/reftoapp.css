@@ -1,0 +1,18 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#Astore {
+  width: 237px;
+  height: 68px;
+}
+
+#Gplay {
+  width: 272px;
+  height: 104px;
+}
+#Astore , #Gplay {
+  display:block;
+        margin-left: auto;
+        margin-right: auto;
+}
