@@ -61,10 +61,11 @@
             </div>
               <button type="submit" class="btn btn-primary">Submit</button>
           </form>
+      <hr></hr>
       </div>
       <div id="student-form" class="form-container" data-form-container>
         <div class="row">
-          <div class="form-title">
+          <div class="form-title" id="titleStudent">
             <h2>Student</h2>
           </div>
         </div>
@@ -81,20 +82,23 @@
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>
+<hr></hr>
 </div>
 <div id="tutor-form" class="form-container" data-form-container>
   <div class="row">
-    <div class="form-title">
+    <div class="form-title" id="titleTutor">
       <h2>Tutor</h2>
     </div>
   </div>
   <form action="/action_page.php">
     <div class="form-group">
       <label for="name">Which class would you like to teach?</label>
-      <input type="name" class="form-control" id="name" placeholder="Enter Class Number" name="name">
+      <input type="name" class="form-control" id="name" placeholder="Enter Class Code (Example: COMM, COMP, FINA ...)" name="name">
+      <input type="name" class="form-control" id="name" placeholder="Enter Class Number (Example: 215, 217, 308 ...)" name="name">
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>
+
 </div>
   </div>
       <div class="modal-footer">

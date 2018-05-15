@@ -36,14 +36,19 @@
 #closeButtonModal{
   margin: 0;
   padding-bottom: 0;
-  padding-top: 0;
-  padding-left: 0
+  padding-top: 2px;
+  padding-left: 0;
+  color: #ffff;
+}
+#closeButtonModal:hover{
+  color:#42CA61;
 }
 .modal-content{
   font-family: 'Ubuntu', sans-serif;
 }
 .modal-header{
-  padding-right: 40%
+  padding-right: 40%;
+  background-color: #082333;
 }
 /* The container */
 .checkBox-title {
@@ -115,7 +120,22 @@
   width: 100%;
   padding: 10px;
   text-align: center;
+  padding-bottom: 2px;
 }
 .formInput{
   padding: 5px;
+}
+.modal-title{
+  color:#42CA61;
+}
+#titleStudent{
+  background-color: #153422;
+  color: #ffff;
+}
+#titleTutor{
+  background-color: #082333;
+  color: #ffff;
+}
+h2{
+  padding: 0;
 }
