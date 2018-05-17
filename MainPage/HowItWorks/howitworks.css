@@ -5,14 +5,16 @@ body {
 #headerOfSection{
   font-weight: bold;
 }
-h2{
-  font-weight: bold;
-}
+
 #headS{
   color: #49C965;
+  font-weight: bold;
+  font-size: 500%;
 }
 #headT{
   color:#40B5F3;
+  font-weight: bold;
+  font-size: 500%;
 }
 #colS:hover{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -56,3 +58,12 @@ h2{
   color: #072233;
   box-shadow: none;
 }
+#textOfBody{
+  color:#082333;
+}
+#hrhtw{
+  width: 90%;
+  color:#000;
+}
+#headerS{}
+#headerT{}

@@ -11,6 +11,11 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 <!--CSS files -->
+<link href="MainPage/Navbar/navbar.css" rel="stylesheet">
+<link href="MainPage/Jumbotron/jumbotron.css" rel="stylesheet">
+<link href="MainPage/WhatIsAce/whatisace.css" rel="stylesheet">
+<link href="MainPage/HowItWorks/howitworks.css" rel="stylesheet">
+<link href="MainPage/FloatingWindow/floatwindow.css" rel="stylesheet">
 <link href="MainPage/Footer/footer.css" rel="stylesheet">
 
 <!--Google Font -->
@@ -22,7 +27,179 @@
 </head>
 
 <body>
+<!--NAVBAR OF THE MAINPAGE-->
+<nav class="navbar navbar-expand-lg fixed-top">
 
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="icon">
+    <img src="AceLogo.png" style="width:100px;">
+  </a>
+
+  <!-- Links -->
+  <div class="container-fluid">
+
+  <ul class="nav navbar-nav navbar-left"> <!-- Left content of the navbar -->
+    <li class="nav-item">
+      <button type="button" class="btn btn-primary"id="buttonS">Become a student</button>
+    </li>
+    <li class="nav-item">
+      <button type="button" class="btn btn-primary" id="buttonT">Become a tutor</button>
+    </li>
+  </ul>
+
+  <ul class="nav navbar-nav navbar-right"> <!-- Right content of the navbar -->
+    <li class="nav-item dropdown">
+      <a class="text-uppercase nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Study Features</a>
+        <div class="text-uppercase dropdown-menu">
+          <a class="dropdown-item" href="#">Documents</a>
+          <a class="dropdown-item" href="#">Tools</a>
+        </div>
+    </li>
+
+    <li class="nav-item">
+      <a class="text-uppercase nav-link" href="#">About Us</a>
+    </li>
+  </ul>
+
+</nav>
+<!--.NAVBAR OF THE MAINPAGE-->
+<!-- //JUMBOTRON -->
+<article class="jumbotron">
+
+	<!-- //JUMBOTRON - Figure -->
+	<figure class="jumbotronFigure" id="jumbotronFigure">
+		<img src="MainPage/Jumbotron/0D1A7669.jpg" alt="" class="image"/>
+	</figure>
+	<!-- JUMBOTRON - Figure// -->
+
+	<!-- //JUMBOTRON - Container -->
+	<div class="jumbotronContainer" id="jumbotronContainer">
+		<div class="jumbotronContainerBefore" id="jumbotronContainerBefore"></div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+					<!-- //JUMBOTRON - Header -->
+					<header class="jumbotronHeader">
+
+						<!-- //JUMBOTRON - Category -->
+						<small class="jumbotronCategory" id="jumbotronCategory">
+							Ace Academy
+						</small>
+						<!-- JUMBOTRON - Category// -->
+
+						<!-- //JUMBOTRON - Title -->
+						<h1 class="jumbotronTitle" id="jumbotronTitle">
+							Ignite the passion for learning
+						</h1>
+						<!-- JUMBOTRON - Title// -->
+
+					</header>
+					<!-- JUMBOTRON - Header// -->
+
+					<!-- //JUMBOTRON - Body -->
+					<div class="jumbotronBody" id="jumbotronBody">
+						<p class"firstLine">
+              Be part of the new tutoring experience.
+						</p>
+						<p>
+							Browse, Choose, <span style="color:#2DB3F9; display:inline;">Ace</span>
+						</p>
+					</div>
+					<!-- JUMBOTRON - Body// -->
+
+					<!-- //JUMBOTRON - Footer -->
+					<footer class="jumbotronFooter" id="jumbotronFooter">
+						<a class="btn btn-primary" href="#" role="button">
+							Student <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+						</a>
+            <a class="btn btn-primary" href="#" role="button" id="tutorButton">
+							Tutor <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+						</a>
+					</footer>
+					<!-- JUMBOTRON - Footer// -->
+
+				</div>
+			</div>
+		</div>
+	</div>
+</article>
+	<!-- JUMBOTRON - Container// -->
+<!-- JUMBOTRON// -->
+<!--HOW IT WORKS-->
+<div id = "howItWorks">
+  <h1 id="headerOfSection" class="text-center py-3">How it works</h1>
+  <hr id="hrhtw"></hr>
+  <div class="container space-big space-both">
+    <div class="row">
+      <!--Column Left-->
+      <div class="col-md-6 divider" id="colS">
+        <div id="headerS">
+          <h1 class="text-center py-5" id="headS">Student</h2>
+        </div>
+        <div class="row text-md-left py-4 justify-content-end align-items-center someclass">
+          <div class="col-md-4 text center">
+            <i class="fas fa-book" id="processIconS"></i>
+          </div>
+          <div class="col-md-8">
+            <h5 class="text-md-left"id="textOfBody">Choose the classes you will Ace</h5>
+          </div>
+        </div>
+        <div class="row text-md-left py-4 justify-content-end align-items-center someclass">
+          <div class="col-md-4 text center">
+            <i class="fas fa-calendar-alt" id="processIconS"></i>
+          </div>
+          <div class="col-md-8">
+            <h5 class="text-md-left"id="textOfBody">Pick a session that matches your criterias</h5>
+          </div>
+        </div>
+        <div class="row text-md-left py-4 justify-content-end align-items-center someclass">
+          <div class="col-md-4 text center">
+            <i class="fas fa-lightbulb" id="processIconS"></i>
+          </div>
+          <div class="col-md-8">
+            <h5 class="text-md-left"id="textOfBody">Learn</h5>
+          </div>
+        </div>
+        <div class="text-center py-3"><button type="button" class="btn btn-primary" id="buttonS">Become a student</button></div>
+    </div>
+    <!--.Column Left-->
+    <!--Column Right-->
+    <div class="col-md-6 divider" id="colT">
+      <div id="headerT">
+        <h1 class="text-center py-5" id="headT">Tutor</h2>
+      </div>
+      <div class="row text-md-left py-4 justify-content-end align-items-center someclass">
+        <div class="col-md-4 text center">
+          <i class="fas fa-check-circle" id="processIconT"></i>
+        </div>
+        <div class="col-md-8">
+          <h5 class="text-md-left"id="textOfBody">Choose the classes you Aced</h5>
+        </div>
+      </div>
+      <div class="row text-md-left py-4 justify-content-end align-items-center someclass">
+        <div class="col-md-4 text center">
+          <i class="fas fa-calendar-check" id="processIconT"></i>
+        </div>
+        <div class="col-md-8">
+          <h5 class="text-md-left"id="textOfBody">Create a session at your own price</h5>
+        </div>
+      </div>
+      <div class="row text-md-left py-4 justify-content-end align-items-center someclass">
+        <div class="col-md-4 text center">
+          <i class="fas fa-pencil-alt" id="processIconT"></i>
+        </div>
+        <div class="col-md-8">
+          <h5 class="text-md-left"id="textOfBody">Teach</h5>
+        </div>
+      </div>
+      <div class="text-center py-3"><button type="button" class="btn btn-primary"id="buttonT">Become a tutor</button></div>
+  </div>
+    <!--.Column Right-->
+    </div>
+  </div>
+</div>
+<!--.HOW IT WORKS-->
 <!--FOOTER OF THE WEPAGE-->
 <footer class="footer pt-4 mt-4">
       <!--Main Container of the footer that holds all the elements of the entire footer-->
@@ -34,13 +211,10 @@
                 <img src="AceBlackLogo.png" class="img-responsive" alt="Responsive Image">
           </div>
           <!--/.First column-->
-<!--Empty hr that separates two columns-->
-<hr class="clearfix w-100 d-md-none">
-<!--.Empty hr that separates two columns-->
           <!--Second column-->
             <div class="col-md-3">
                 <h5 class="text-uppercase mb-0 mt-3 font-weight-bold" id="titles">Contact</h5>
-                <hr/>
+                <hr id="hrFooter">
                 <ul class="list-unstyled">
                     <li>
                         <p id="footeritems"> Telephone  <i class="fas fa-phone"></i></p>
@@ -54,13 +228,10 @@
                 </ul>
             </div>
             <!--/.Second column-->
-<!--Empty hr that separates two columns-->
-<hr class="clearfix w-100 d-md-none">
-<!--.Empty hr that separates two columns-->
             <!--Third column-->
               <div class="col-md-3">
                   <h5 class="text-uppercase mb-0 mt-3 font-weight-bold"id="titles">About</h5>
-                  <hr/>
+                  <hr id="hrFooter">
                   <ul class="list-unstyled">
                       <li>
                           <a href=""><p> Team  </p></a>
@@ -71,20 +242,17 @@
                   </ul>
               </div>
               <!--/.Third column-->
-<!--Empty hr that separates two columns-->
-<hr class="clearfix w-100 d-md-none">
-<!--.Empty hr that separates two columns-->
               <!--Fourth column-->
                 <div class="col-md-3">
                     <h5 class="text-uppercase mb-0 mt-3 font-weight-bold"id="titles">Find Us</h5>
-                    <hr/>
+                    <hr id="hrFooter">
                     <ul class="list-unstyled">
                         <li id="socialicons">
                           <a href=""><i class="fab fa-facebook-f"></i></a> <a href=""><i class="fab fa-instagram"></i></a> <a href=""><i class="fab fa-youtube"></i></a>
                         </li>
                     </ul>
                     <h5 class="text-uppercase mb-0 mt-3 font-weight-bold" id="titles">Language</h5>
-                    <hr/>
+                  <hr id="hrFooter">
                     <a href=""><p>English </a>|<a href=""> Français</p></a>
                 </div>
                 <!--/.Fourth column-->
@@ -96,7 +264,90 @@
       <!--.Main Container of the footer that holds all the elements of the entire footer-->
 </footer>
 <!--.FOOTER OF THE WEPAGE-->
+<!-- FLOATING WINDOW -->
+<div id="floatButton">
+  <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Join Us</button>
+</div>
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
 
+    <!-- Modal content-->
+  <div class="modal-content">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" id="closeButtonModal">&times;</button>
+        <h4 class="modal-title">Join Us</h4>
+    </div>
+    <div class="modal-body">
+      <div id="info-form" class="form-container" data-form-container>
+        <div class="row">
+          <div class="form-title" id="becomeMember">
+            <h2>Become a member</h2>
+          </div>
+        </div>
+          <form action="/action_page.php" id="formStandard">
+            <div class="form-group">
+              <div class="formInput"><input type="name" class="form-control" id="name" placeholder="First Name" name="name"></div>
+              <div class="formInput"><input type="name" class="form-control" id="name" placeholder="Last Name" name="name"></div>
+              <div class="formInput"><input type="email" class="form-control" id="email" placeholder="Email" name="email"></div>
+            </div>
+            <div class="checkboxes">
+              <label class="checkBox-title">Student
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="checkBox-title">Tutor
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+            </div>
+              <button type="submit" class="btn btn-primary" id="submitButton">Submit</button>
+          </form>
+      <hr></hr>
+      </div>
+      <div id="student-form" class="form-container" data-form-container>
+        <div class="row">
+          <div class="form-title" id="becomeStudent">
+            <h2>Student</h2>
+          </div>
+        </div>
+  <form action="/action_page.php" id="formStudent">
+    <div class="form-group">
+      <div class="formInput">
+        <label for="name">Which class would you like to Ace?</label>
+        <input type="name" class="form-control" id="name" placeholder="Enter Class Number" name="name">
+      </div>
+      <div class="formInput">
+      <label for="name">Which topic especially?</label>
+      <input type="name" class="form-control" id="name" placeholder="Enter Topic/Chapter Name and Number" name="name">
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary"id="submitButton">Submit</button>
+  </form>
+<hr></hr>
+</div>
+<div id="tutor-form" class="form-container" data-form-container>
+  <div class="row">
+    <div class="form-title" id="becomeTutor">
+      <h2>Tutor</h2>
+    </div>
+  </div>
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="name">Which class would you like to teach?</label>
+      <input type="name" class="form-control" id="name" placeholder="Enter Class Code (Example: COMM, COMP, FINA ...)" name="name">
+      <input type="name" class="form-control" id="name" placeholder="Enter Class Number (Example: 215, 217, 308 ...)" name="name">
+    </div>
+    <button type="submit" class="btn btn-primary"id="tutorButton">Submit</button>
+  </form>
+
+</div>
+  </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+<!-- .FLOATING WINDOW -->
 <!--JS LIBRARIES-->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

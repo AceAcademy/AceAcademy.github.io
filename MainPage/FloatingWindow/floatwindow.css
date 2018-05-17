@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Ubuntu");
-.btn-primary{
+#submitButton{
   display: block;
   height: 52px;
 	width: 155px;
@@ -10,9 +10,25 @@
   border-color: #143421;
   background-color: #143421;
 }
-.btn-primary:hover{
+#submitButton:hover{
   border-color: #20CF51;
   background-color: #20CF51;
+  color: #072233;
+}
+#tutorButtonFloatingWindow{
+  display: block;
+  height: 52px;
+	width: 155px;
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  border-color: #072233;
+  background-color: #072233;
+}
+#tutorButton:hover{
+  border-color: #1EB2FC;
+  background-color: #1EB2FC;
   color: #072233;
 }
 #floatButton{
@@ -20,7 +36,7 @@
 	width: 85px;
 	position: fixed;
 	right: 0;
-	top: 75%;
+	top: 50%;
 	z-index: 1000;
 	transform: rotate(-90deg);
 	-webkit-transform: rotate(-90deg);
@@ -121,6 +137,7 @@
   padding: 10px;
   text-align: center;
   padding-bottom: 2px;
+
 }
 .formInput{
   padding: 5px;
@@ -128,13 +145,14 @@
 .modal-title{
   color:#42CA61;
 }
-#titleStudent{
-  background-color: #153422;
-  color: #ffff;
+#becomeMember{
+  color: #082333;
 }
-#titleTutor{
-  background-color: #082333;
-  color: #ffff;
+#becomeStudent{
+  color: #49C965;
+}
+#becomeTutor{
+  color: #47B6F1;
 }
 h2{
   padding: 0;

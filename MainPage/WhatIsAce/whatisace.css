@@ -2,16 +2,12 @@ body {
   font-family: 'Ubuntu', sans-serif;
 }
 
-div {
+#whatisaceContainer{
   display: inline-block;
   margin: 0 0 0 0;
 	padding: 0 0 0 0;
 	background-color:#fff;
 	width:200px;
-}
-
-img {
-  box-shadow: 10px 10px 5px grey;
 }
 
 #img1 {
