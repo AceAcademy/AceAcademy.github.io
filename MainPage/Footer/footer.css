@@ -1,53 +1,65 @@
-.footer{
-font-family: 'Ubuntu', sans-serif;
-background-color: #072233;
-padding-bottom: 5%;
+.footer {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #072233;
+  padding-bottom: 5%;
 }
-.img-responsive{
-width: 50%;
+
+.img-responsive {
+  width: 50%;
 }
-.row{
-margin: auto;
-color: #FFFF;
+
+.row {
+  margin: auto;
+  color: #FFFF;
 }
-.fas{
-float: right;
-padding-right: 50%;
-padding-top: 3px;
+
+.fas {
+  float: right;
+  padding-right: 50%;
+  padding-top: 3px;
 }
-.fab{
-font-size: 150%;
+.fab {
+  font-size: 150%;
 }
-.fa-instagram{
-padding-left: 20%;
+
+.fa-instagram {
+  padding-left: 20%;
 }
-.fa-youtube{
-padding-left: 20%;
+
+.fa-youtube {
+  padding-left: 20%;
 }
-#socialicons{
+
+#socialicons {
   padding-bottom: 10%;
 }
+
 #hrFooter {
-    height: 1px;
-    border-top: 1px solid #3ACB5C;
-    margin: 1em 0;
-    width: 30%;
+  height: 1px;
+  border-top: 1px solid #3ACB5C;
+  margin: 1em 0;
+  width: 30%;
 }
-#titles{
+
+#titles {
   padding-bottom: 0px;
 }
+
 a {
   color: #FFFF;
 }
-a:hover , a:active{
+
+a:hover , a:active {
   color: 	#3ACB5C;
   text-decoration: none;
 }
-#footeritems:hover , #footeritems:active{
+
+#footeritems:hover , #footeritems:active {
   color: #3ACB5C;
   text-decoration: none;
 }
-#aceCertificationBottomPage{
+
+#aceCertificationBottomPage {
   color: #FFFF;
   margin: auto;
   text-align: left;

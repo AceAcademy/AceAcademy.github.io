@@ -1,4 +1,127 @@
-@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+/* Navbar CSS */
+
+.navbar {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #082333;
+  padding-top: 1%;
+}
+
+a {
+  color: #FFFF;
+}
+
+a:hover , a:active {
+  color: 	#42CA61;
+}
+
+#buttonS , #buttonT {
+  margin: 13px 12px 12px 10px;
+}
+
+#buttonS {
+  border-color: #143421;
+  background-color: #143421;
+  color: #fff;
+}
+#buttonS:hover, #buttonS:focus, #buttonS:active {
+  padding-right: 15%;
+  padding-left: 15%;
+  border-color: #20CF51;
+  background-color: #20CF51;
+  color: #072233;
+  box-shadow: none;
+}
+
+#buttonT {
+  border-color: #072233;
+  background-color: #072233;
+  color: #fff;
+}
+#buttonT:hover, #buttonT:focus, #buttonT:active {
+  padding-right: 15%;
+  padding-left: 15%;
+  border-color: #38B4F6;
+  background-color: #38B4F6;
+  color: #072233;
+  box-shadow: none;
+}
+
+/* .Navbar CSS */
+
+/* Footer CSS */
+
+.footer {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #072233;
+  padding-bottom: 5%;
+}
+
+.img-responsive {
+  width: 50%;
+}
+
+.row {
+  margin: auto;
+  color: #FFFF;
+}
+
+.fas {
+  float: right;
+  padding-right: 50%;
+  padding-top: 3px;
+}
+
+.fab {
+  font-size: 150%;
+}
+
+.fa-instagram {
+  padding-left: 20%;
+}
+
+.fa-youtube {
+  padding-left: 20%;
+}
+
+#socialicons {
+  padding-bottom: 10%;
+}
+
+#hrFooter {
+  height: 1px;
+  border-top: 1px solid #3ACB5C;
+  margin: 1em 0;
+  width: 30%;
+}
+
+#titles {
+  padding-bottom: 0px;
+}
+
+a {
+  color: #FFFF;
+}
+
+a:hover , a:active {
+  color: 	#3ACB5C;
+  text-decoration: none;
+}
+
+#footeritems:hover , #footeritems:active {
+  color: #3ACB5C;
+  text-decoration: none;
+}
+
+#aceCertificationBottomPage {
+  color: #FFFF;
+  margin: auto;
+  text-align: left;
+  padding-top: 5%;
+}
+
+/* .Footer CSS */
+
+/* Floating window CSS */
 
 #submitButton{
   display: block;
@@ -173,3 +296,5 @@
 h2 {
   padding: 0;
 }
+
+/* .Floating window CSS */

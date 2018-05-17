@@ -1,7 +1,12 @@
-<!--COPYRIGHT-->
+<!--Ace Academy Website -->
+<!--By Gautier MARECHAL /// Tanguy GAURIER -->
+<!-- 2018 Ace Academy -->
+
 <!DOCTYPE html>
 <html>
+
 <head>
+
 <!--Meta tags -->
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,12 +16,10 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 <!--CSS files -->
-<link href="MainPage/Navbar/navbar.css" rel="stylesheet">
-<link href="MainPage/Jumbotron/jumbotron.css" rel="stylesheet">
-<link href="MainPage/WhatIsAce/whatisace.css" rel="stylesheet">
-<link href="MainPage/HowItWorks/howitworks.css" rel="stylesheet">
-<link href="MainPage/FloatingWindow/floatwindow.css" rel="stylesheet">
-<link href="MainPage/Footer/footer.css" rel="stylesheet">
+<link href="CSS/MainPageCSS.css" rel="stylesheet">
+<link href="CSS/CoreCSS.css" rel="stylesheet">
+
+
 
 <!--Google Font -->
 <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
@@ -24,9 +27,11 @@
 <!--Font Awesome -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 <title>Ace</title>
+
 </head>
 
 <body>
+
 <!--NAVBAR OF THE MAINPAGE-->
 <nav class="navbar navbar-expand-lg fixed-top">
 
@@ -63,7 +68,8 @@
 
 </nav>
 <!--.NAVBAR OF THE MAINPAGE-->
-<!-- //JUMBOTRON -->
+
+<!-- JUMBOTRON -->
 <article class="jumbotron">
 
 	<!-- //JUMBOTRON - Figure -->
@@ -123,10 +129,12 @@
 			</div>
 		</div>
 	</div>
+  <!-- JUMBOTRON - Container// -->
 </article>
-	<!-- JUMBOTRON - Container// -->
-<!-- JUMBOTRON// -->
-<!--HOW IT WORKS-->
+<!--. JUMBOTRON// -->
+
+
+<!-- HOW IT WORKS DIVISION -->
 <div id = "howItWorks">
   <h1 id="headerOfSection" class="text-center py-3">How it works</h1>
   <hr id="hrhtw"></hr>
@@ -199,7 +207,8 @@
     </div>
   </div>
 </div>
-<!--.HOW IT WORKS-->
+<!--. HOW IT WORKS DIVISION -->
+
 <!--FOOTER OF THE WEPAGE-->
 <footer class="footer pt-4 mt-4">
       <!--Main Container of the footer that holds all the elements of the entire footer-->
@@ -264,20 +273,27 @@
       <!--.Main Container of the footer that holds all the elements of the entire footer-->
 </footer>
 <!--.FOOTER OF THE WEPAGE-->
+
 <!-- FLOATING WINDOW -->
+
+<!-- FLOATING BUTTON -->
 <div id="floatButton">
   <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Join Us</button>
 </div>
+<!--. FLOATING BUTTON -->
+
 <!-- Modal -->
 <div id="myModal" class="modal fade" role="dialog">
   <div class="modal-dialog">
 
-    <!-- Modal content-->
+  <!-- Modal content-->
   <div class="modal-content">
+
     <div class="modal-header">
       <button type="button" class="close" data-dismiss="modal" id="closeButtonModal">&times;</button>
         <h4 class="modal-title">Join Us</h4>
     </div>
+
     <div class="modal-body">
       <div id="info-form" class="form-container" data-form-container>
         <div class="row">
@@ -285,73 +301,83 @@
             <h2>Become a member</h2>
           </div>
         </div>
-          <form action="/action_page.php" id="formStandard">
-            <div class="form-group">
-              <div class="formInput"><input type="name" class="form-control" id="name" placeholder="First Name" name="name"></div>
-              <div class="formInput"><input type="name" class="form-control" id="name" placeholder="Last Name" name="name"></div>
-              <div class="formInput"><input type="email" class="form-control" id="email" placeholder="Email" name="email"></div>
-            </div>
-            <div class="checkboxes">
-              <label class="checkBox-title">Student
-                <input type="checkbox">
-                <span class="checkmark"></span>
-              </label>
-              <label class="checkBox-title">Tutor
-                <input type="checkbox">
-                <span class="checkmark"></span>
-              </label>
-            </div>
+
+        <form action="/action_page.php" id="formStandard">
+          <div class="form-group">
+            <div class="formInput"><input type="name" class="form-control" id="name" placeholder="First Name" name="name"></div>
+            <div class="formInput"><input type="name" class="form-control" id="name" placeholder="Last Name" name="name"></div>
+            <div class="formInput"><input type="email" class="form-control" id="email" placeholder="Email" name="email"></div>
+          </div>
+
+          <div class="checkboxes">
+            <label class="checkBox-title">Student
+              <input type="checkbox">
+              <span class="checkmark"></span>
+            </label>
+            <label class="checkBox-title">Tutor
+              <input type="checkbox">
+              <span class="checkmark"></span>
+            </label>
+          </div>
               <button type="submit" class="btn btn-primary" id="submitButton">Submit</button>
-          </form>
-      <hr></hr>
+        </form>
+        <hr></hr>
       </div>
+
       <div id="student-form" class="form-container" data-form-container>
         <div class="row">
           <div class="form-title" id="becomeStudent">
             <h2>Student</h2>
           </div>
         </div>
-  <form action="/action_page.php" id="formStudent">
-    <div class="form-group">
-      <div class="formInput">
-        <label for="name">Which class would you like to Ace?</label>
-        <input type="name" class="form-control" id="name" placeholder="Enter Class Number" name="name">
-      </div>
-      <div class="formInput">
-      <label for="name">Which topic especially?</label>
-      <input type="name" class="form-control" id="name" placeholder="Enter Topic/Chapter Name and Number" name="name">
-      </div>
-    </div>
-    <button type="submit" class="btn btn-primary"id="submitButton">Submit</button>
-  </form>
-<hr></hr>
-</div>
-<div id="tutor-form" class="form-container" data-form-container>
-  <div class="row">
-    <div class="form-title" id="becomeTutor">
-      <h2>Tutor</h2>
-    </div>
-  </div>
-  <form action="/action_page.php">
-    <div class="form-group">
-      <label for="name">Which class would you like to teach?</label>
-      <input type="name" class="form-control" id="name" placeholder="Enter Class Code (Example: COMM, COMP, FINA ...)" name="name">
-      <input type="name" class="form-control" id="name" placeholder="Enter Class Number (Example: 215, 217, 308 ...)" name="name">
-    </div>
-    <button type="submit" class="btn btn-primary"id="tutorButton">Submit</button>
-  </form>
 
-</div>
-  </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <form action="/action_page.php" id="formStudent">
+          <div class="form-group">
+            <div class="formInput">
+              <label for="name">Which class would you like to Ace?</label>
+              <input type="name" class="form-control" id="name" placeholder="Enter Class Number" name="name">
+            </div>
+            <div class="formInput">
+              <label for="name">Which topic especially?</label>
+              <input type="name" class="form-control" id="name" placeholder="Enter Topic/Chapter Name and Number" name="name">
+            </div>
+          </div>
+            <button type="submit" class="btn btn-primary"id="submitButton">Submit</button>
+        </form>
+        <hr></hr>
+      </div>
+
+      <div id="tutor-form" class="form-container" data-form-container>
+        <div class="row">
+          <div class="form-title" id="becomeTutor">
+            <h2>Tutor</h2>
+          </div>
+        </div>
+
+        <form action="/action_page.php">
+          <div class="form-group">
+            <label for="name">Which class would you like to teach?</label>
+            <input type="name" class="form-control" id="name" placeholder="Enter Class Code (Example: COMM, COMP, FINA ...)" name="name">
+            <input type="name" class="form-control" id="name" placeholder="Enter Class Number (Example: 215, 217, 308 ...)" name="name">
+          </div>
+          <button type="submit" class="btn btn-primary"id="tutorButton">Submit</button>
+        </form>
       </div>
     </div>
-<!-- .FLOATING WINDOW -->
+
+    <div class="modal-footer">
+      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    </div>
+  </div>
+<!--. Modal -->
+
+<!--. FLOATING WINDOW -->
+
 <!--JS LIBRARIES-->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <!--.JS LIBRARIES-->
+
 </body>
 </html>
