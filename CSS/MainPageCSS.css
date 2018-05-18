@@ -1,3 +1,84 @@
+/* HowItWorks CSS */
+
+#headerOfSection {
+  font-weight: bold;
+}
+
+#headS {
+  color: #49C965;
+  font-weight: bold;
+  font-size: 500%;
+}
+
+#headT {
+  color:#40B5F3;
+  font-weight: bold;
+  font-size: 500%;
+}
+
+#colS:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: box-shadow 0.4s ease-in-out;
+}
+
+#colT:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: box-shadow 0.4s ease-in-out;
+}
+
+#processIconS {
+  color : #42CA61;
+  font-size: 300%;
+}
+
+#buttonS {
+  border-color: #143421;
+  background-color: #143421;
+  color: #fff;
+}
+
+#buttonS:hover, #buttonS:focus, #buttonS:active {
+  padding-right: 4%;
+  padding-left: 4%;
+  border-color: #20CF51;
+  background-color: #20CF51;
+  color: #072233;
+  box-shadow: none;
+}
+
+#processIconT {
+  color : #38B4F6;
+  font-size: 300%;
+}
+
+#buttonT {
+  border-color: #072233;
+  background-color: #072233;
+  color: #fff;
+}
+
+#buttonT:hover, #buttonT:focus, #buttonT:active {
+  padding-right: 4%;
+  padding-left: 4%;
+  border-color: #38B4F6;
+  background-color: #38B4F6;
+  color: #072233;
+  box-shadow: none;
+}
+
+#textOfBody {
+  color:#082333;
+}
+
+#hrhtw {
+  width: 90%;
+  color:#000;
+}
+
+#headerS{}
+#headerT{}
+
+/* .HowItWorks CSS */
 /* Jumbotron CSS */
 
 html, body {
@@ -319,87 +400,7 @@ position: absolute;
 }
 /* .WhatIsAce CSS */
 
-/* HowItWorks CSS */
 
-#headerOfSection {
-  font-weight: bold;
-}
-
-#headS {
-  color: #49C965;
-  font-weight: bold;
-  font-size: 500%;
-}
-
-#headT {
-  color:#40B5F3;
-  font-weight: bold;
-  font-size: 500%;
-}
-
-#colS:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  transition: box-shadow 0.4s ease-in-out;
-}
-
-#colT:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  transition: box-shadow 0.4s ease-in-out;
-}
-
-#processIconS {
-  color : #42CA61;
-  font-size: 300%;
-}
-
-#buttonS {
-  border-color: #143421;
-  background-color: #143421;
-  color: #fff;
-}
-
-#buttonS:hover, #buttonS:focus, #buttonS:active {
-  padding-right: 4%;
-  padding-left: 4%;
-  border-color: #20CF51;
-  background-color: #20CF51;
-  color: #072233;
-  box-shadow: none;
-}
-
-#processIconT {
-  color : #38B4F6;
-  font-size: 300%;
-}
-
-#buttonT {
-  border-color: #072233;
-  background-color: #072233;
-  color: #fff;
-}
-
-#buttonT:hover, #buttonT:focus, #buttonT:active {
-  padding-right: 4%;
-  padding-left: 4%;
-  border-color: #38B4F6;
-  background-color: #38B4F6;
-  color: #072233;
-  box-shadow: none;
-}
-
-#textOfBody {
-  color:#082333;
-}
-
-#hrhtw {
-  width: 90%;
-  color:#000;
-}
-
-#headerS{}
-#headerT{}
-
-/* .HowItWorks CSS */
 
 /* WelcomeHub CSS */
 /* .WelcomeHub CSS */

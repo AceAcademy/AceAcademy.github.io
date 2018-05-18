@@ -5,6 +5,19 @@ html, body {
 figure {
   margin: 0;
 }
+#jumbotronImage{
+  max-width:100%;
+  position: absolute;
+}
+.jumbotron {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  height: inherit;
+  color: #fff;
+}
 h1, .h1 {
   margin-top: 0;
   margin-bottom: 0;
@@ -70,25 +83,7 @@ h1, .h1 {
   width: 15px;
   opacity: 1;
 }
-.jumbotron {
-  position: relative;
-  overflow: hidden;
-  margin-bottom: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-  height: inherit;
-  color: #fff;
-}
-.jumbotron::after {
-  content: "";
-  display: block;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background-color: rgba(0.2, 0, 0, 0);
-}
+
 .jumbotron h1 {
   font-size: inherit;
 }
@@ -129,12 +124,8 @@ h1, .h1 {
   top: 0;
   bottom: 0;
 }
-.jumbotronFigure img {
-  max-width:100%;
-}
-.image{
-position: absolute;
-}
+
+
 .jumbotronHeader {
   margin-bottom: 15px;
 }
