@@ -56,13 +56,16 @@ a:hover , a:active {
   padding-bottom: 5%;
 }
 
+#footertext {
+  color: #FFFF;
+}
+
 .img-responsive {
   width: 50%;
 }
 
-.row {
+.r {
   margin: auto;
-  color: #FFFF;
 }
 
 .fas {
