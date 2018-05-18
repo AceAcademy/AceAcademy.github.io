@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+#welcomeHubContainer{
+  font-family: 'Ubuntu', sans-serif;
+}
+#col1Documents{
+  background-color: #349876;
+}
+#col2Documents{
+  background-color: #56A4CA;
+}
+#col1Tools{
+  background-color: #2F51B0;
+}
+#col2Tools{
+  background-color: #316E97;
+
+}
+#titleDocTools{
+  color:#ffff;
+  margin-left: 50px;
+}
+#welcomeHubTitle{
+  color: #092433;
+  margin-left: 50px;
+  padding-top: 75px;
+}
+#titleRow{
+  background-color: #FDBF51;
+}
+#descriptionOfHub{
+    color: #092433;
+    padding-top: 75px;
+    padding: 50px;
+}
