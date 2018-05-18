@@ -6,43 +6,30 @@
   padding-top: 1%;
 }
 
-a {
+#rightnavbarbutton {
+  border-color: #FCBE5B;
+  background-color: #FCBE5B;
   color: #FFFF;
-}
-
-a:hover , a:active {
-  color: 	#42CA61;
-}
-
-#buttonS , #buttonT {
   margin: 13px 12px 12px 10px;
 }
 
-#buttonS {
-  border-color: #143421;
-  background-color: #143421;
+#navbarbuttonS , #navbarbuttonT {
+  margin: 13px 12px 12px 10px;
   color: #fff;
-}
-#buttonS:hover, #buttonS:focus, #buttonS:active {
-  padding-right: 15%;
-  padding-left: 15%;
-  border-color: #20CF51;
-  background-color: #20CF51;
-  color: #072233;
-  box-shadow: none;
 }
 
-#buttonT {
-  border-color: #072233;
-  background-color: #072233;
-  color: #fff;
+#navbarbuttonS {
+  border-color: #20CF51;
+  background-color: #20CF51;
 }
-#buttonT:hover, #buttonT:focus, #buttonT:active {
-  padding-right: 15%;
-  padding-left: 15%;
+
+#navbarbuttonT {
   border-color: #38B4F6;
   background-color: #38B4F6;
-  color: #072233;
+}
+
+#rightnavbarbutton:hover , #rightnavbarbutton:active , #navbarbuttonT:hover, #navbarbuttonT:focus, #navbarbuttonT:active , #navbarbuttonS:hover , #navbarbuttonS:focus , #navbarbuttonS:active {
+  color: #082333;
   box-shadow: none;
 }
 
@@ -101,11 +88,11 @@ a:hover , a:active {
   padding-bottom: 0px;
 }
 
-a {
+footer.a {
   color: #FFFF;
 }
 
-a:hover , a:active {
+footer.a:hover , footer.a:active {
   color: 	#3ACB5C;
   text-decoration: none;
 }
@@ -296,7 +283,7 @@ a:hover , a:active {
   color: #47B6F1;
 }
 
-h2 {
+myModal.h2 {
   padding: 0;
 }
 
