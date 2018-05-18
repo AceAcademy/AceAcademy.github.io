@@ -1,0 +1,26 @@
+.card {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+  width: 352px;
+  height: auto;
+
+}
+
+.card-title {
+  font-size: 20px;
+  padding: 5px 5px 5px 5px;
+
+}
+
+.card-text {
+  padding: 5px 5px 20px 5px;
+}
+
+#cardsimg {
+  width: 352px;
+  height: auto;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border: 1px solid #021a40;
+
+}

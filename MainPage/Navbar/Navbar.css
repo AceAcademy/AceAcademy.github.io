@@ -1,44 +1,83 @@
 .navbar {
-font-family: 'Ubuntu', sans-serif;
-background-color: #082333;
-padding-top: 1%;
-}
-a {
-  color: #FFFF;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #082333;
+  padding-top: 1%;
 }
 
-a:hover , a:active {
-  color: 	#42CA61;
+/* Navbar animation for the dropdown menu */
+/* .open > .dropdown-menu {
+  -webkit-transform: scale(1, 1);
+  transform: scale(1, 1);
+}
+
+.open > .dropdown-menu li a {
+  color: #000;
+}
+
+.dropdown-menu li a{
+  color: #fff;
+}
+
+.dropdown-menu {
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-transform: scale(1, 0);
+  transform: scale(1, 0);
+  display: block;
+
+  transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+}
+
+.dropup .dropdown-menu {
+  -webkit-transform-origin: bottom;
+  transform-origin: bottom;
+}
+
+.navbar .nav > li > .dropdown-menu:after {
+
+}
+
+.dropup > .dropdown-menu:after {
+  border-bottom: 0;
+  border-top: 6px solid rgba(39, 45, 51, 0.9);
+  top: auto;
+  display: inline-block;
+  bottom: -6px;
+  content: '';
+  position: absolute;
+  left: 50%;
+  border-right: 6px solid transparent;
+  border-left: 6px solid transparent;
+} */
+
+/* Navbar animation for the dropdown menu */
+
+#rightnavbarbutton {
+  border-color: #FCBE5B;
+  background-color: #FCBE5B;
+  color: #FFFF;
+  margin: 13px 12px 12px 10px;
 }
 
 #buttonS , #buttonT {
   margin: 13px 12px 12px 10px;
+  color: #fff;
 }
 
 #buttonS {
-  border-color: #143421;
-  background-color: #143421;
-  color: #fff;
-}
-#buttonS:hover, #buttonS:focus, #buttonS:active {
-  padding-right: 15%;
-  padding-left: 15%;
   border-color: #20CF51;
   background-color: #20CF51;
-  color: #072233;
-  box-shadow: none;
 }
 
 #buttonT {
-  border-color: #072233;
-  background-color: #072233;
-  color: #fff;
-}
-#buttonT:hover, #buttonT:focus, #buttonT:active {
-  padding-right: 15%;
-  padding-left: 15%;
   border-color: #38B4F6;
   background-color: #38B4F6;
-  color: #072233;
+}
+
+#rightnavbarbutton:hover , #rightnavbarbutton:active , #buttonT:hover, #buttonT:focus, #buttonT:active , #buttonS:hover , #buttonS:focus , #buttonS:active {
+  color: #082333;
   box-shadow: none;
 }
