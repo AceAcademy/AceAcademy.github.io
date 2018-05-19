@@ -1,7 +1,11 @@
 /* HowItWorks CSS */
-
+#howItWorks{
+  font-family: 'Ubuntu', sans-serif;
+}
 #headerOfSection {
   font-weight: bold;
+  margin-bottom: 0;
+  padding: 0;
 }
 
 #headS {
@@ -15,15 +19,18 @@
   font-weight: bold;
   font-size: 500%;
 }
-
-#colS:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  transition: box-shadow 0.4s ease-in-out;
+#colS{
+  background-color: #FAFAFA;
+  margin-right:15px;
+  margin-bottom: 15px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 }
 
-#colT:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  transition: box-shadow 0.4s ease-in-out;
+#colT{
+  background-color: #FAFAFA;
+  margin-right:15px;
+  margin-bottom: 15px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 }
 
 #processIconS {
@@ -69,14 +76,6 @@
 #textOfBody {
   color:#082333;
 }
-
-#hrhtw {
-  width: 90%;
-  color:#000;
-}
-
-#headerS{}
-#headerT{}
 
 /* .HowItWorks CSS */
 
