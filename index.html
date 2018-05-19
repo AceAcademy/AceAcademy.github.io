@@ -18,7 +18,7 @@
 <!--CSS files -->
 <link href="CSS/MainPageCSS.css" rel="stylesheet">
 <link href="CSS/CoreCSS.css" rel="stylesheet">
-<link href="/Users/Tanguy/Downloads/animate.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
 
 <!--Google Font -->
 <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
@@ -70,67 +70,18 @@
 <!--.NAVBAR OF THE MAINPAGE-->
 
 <!-- JUMBOTRON -->
-<article class="jumbotron">
-
-	<!-- //JUMBOTRON - Figure -->
-	<figure class="jumbotronFigure" id="jumbotronFigure">
-		<img src="MainPage/Jumbotron/0D1A7669.jpg"  id="jumbotronImage" class="image-responsive"/>
-	</figure>
-	<!-- JUMBOTRON - Figure// -->
-
-	<!-- //JUMBOTRON - Container -->
-	<div class="jumbotronContainer" id="jumbotronContainer">
-		<div class="jumbotronContainerBefore" id="jumbotronContainerBefore"></div>
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-
-					<!-- //JUMBOTRON - Header -->
-					<header class="jumbotronHeader">
-
-						<!-- //JUMBOTRON - Category -->
-						<small class="jumbotronCategory" id="jumbotronCategory">
-							Ace Academy
-						</small>
-						<!-- JUMBOTRON - Category// -->
-
-						<!-- //JUMBOTRON - Title -->
-						<h1 class="jumbotronTitle" id="jumbotronTitle">
-							Ignite the passion for learning
-						</h1>
-						<!-- JUMBOTRON - Title// -->
-
-					</header>
-					<!-- JUMBOTRON - Header// -->
-
-					<!-- //JUMBOTRON - Body -->
-					<div class="jumbotronBody" id="jumbotronBody">
-						<p class"firstLine">
-              Be part of the new tutoring experience.
-						</p>
-						<p>
-							Browse, Choose, <span style="color:#2DB3F9; display:inline;">Ace</span>
-						</p>
-					</div>
-					<!-- JUMBOTRON - Body// -->
-
-					<!-- //JUMBOTRON - Footer -->
-					<footer class="jumbotronFooter" id="jumbotronFooter">
-						<a class="btn btn-primary" href="#" id="jumbotronStudentButton">
-							Student <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-						</a>
-            <a class="btn btn-primary" href="#" role="button" id="jumbotronTutorButton">
-							Tutor <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-						</a>
-					</footer>
-					<!-- JUMBOTRON - Footer// -->
-
-				</div>
-			</div>
-		</div>
-	</div>
-  <!-- JUMBOTRON - Container// -->
-</article>
+<div class="jumbotron">
+  <div class="row" id="jumbotronBody">
+    <div class="col">
+      <span><h5>Ace Academy</h5><hr id="lineJumbotron"></hr></span>
+      <h1 class="display-4" id="mainHeadJumbotron">Ignite the passion for learning</h1>
+      <p>Be part of the new tutoring experience</p>
+      <p>Browse, Choose, <span id="aceWord">Ace</span></p>
+      <button class="btn btn-primary animated pulse" id="jumbotronButtonT">Tutor</button>
+      <button class="btn btn-primary animated pulse" id="jumbotronButtonS">Student</button>
+    </div>
+  </div>
+</div>
 <!--. JUMBOTRON// -->
 
 <!-- WHAT IS ACE -->
