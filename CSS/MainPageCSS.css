@@ -39,18 +39,14 @@
 }
 
 #buttonS {
-  border-color: #143421;
-  background-color: #143421;
-  color: #fff;
+  background-color: #034300;
+  border-color: #034300;
 }
 
 #buttonS:hover, #buttonS:focus, #buttonS:active {
-  padding-right: 4%;
-  padding-left: 4%;
   border-color: #20CF51;
   background-color: #20CF51;
   color: #072233;
-  box-shadow: none;
 }
 
 #processIconT {
@@ -65,12 +61,9 @@
 }
 
 #buttonT:hover, #buttonT:focus, #buttonT:active {
-  padding-right: 4%;
-  padding-left: 4%;
   border-color: #38B4F6;
   background-color: #38B4F6;
   color: #072233;
-  box-shadow: none;
 }
 
 #textOfBody {
