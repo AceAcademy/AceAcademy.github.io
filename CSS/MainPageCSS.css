@@ -1,7 +1,18 @@
 /* HowItWorks CSS */
-
+#howItWorks{
+  font-family: 'Ubuntu', sans-serif;
+}
 #headerOfSection {
-  font-weight: bold;
+
+  margin-bottom: 10px;
+  border-style: solid;
+  border-width: thick;
+  color: #0F753B;
+  padding-bottom: 0;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
 }
 
 #headS {
@@ -15,15 +26,16 @@
   font-weight: bold;
   font-size: 500%;
 }
-
-#colS:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  transition: box-shadow 0.4s ease-in-out;
+#colS{
+  background-color: #FAFAFA;
+  margin-right:15px;
+  margin-bottom: 15px;
 }
 
-#colT:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  transition: box-shadow 0.4s ease-in-out;
+#colT{
+  background-color: #FAFAFA;
+  margin-right:15px;
+  margin-bottom: 15px;
 }
 
 #processIconS {
@@ -32,18 +44,14 @@
 }
 
 #buttonS {
-  border-color: #143421;
-  background-color: #143421;
-  color: #fff;
+  background-color: #034300;
+  border-color: #034300;
 }
 
 #buttonS:hover, #buttonS:focus, #buttonS:active {
-  padding-right: 4%;
-  padding-left: 4%;
   border-color: #20CF51;
   background-color: #20CF51;
   color: #072233;
-  box-shadow: none;
 }
 
 #processIconT {
@@ -52,31 +60,19 @@
 }
 
 #buttonT {
-  border-color: #072233;
-  background-color: #072233;
-  color: #fff;
+  background-color: #033162;
+  border-color: #033162;
 }
 
 #buttonT:hover, #buttonT:focus, #buttonT:active {
-  padding-right: 4%;
-  padding-left: 4%;
   border-color: #38B4F6;
   background-color: #38B4F6;
   color: #072233;
-  box-shadow: none;
 }
 
 #textOfBody {
   color:#082333;
 }
-
-#hrhtw {
-  width: 90%;
-  color:#000;
-}
-
-#headerS{}
-#headerT{}
 
 /* .HowItWorks CSS */
 
