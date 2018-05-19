@@ -3,9 +3,16 @@
   font-family: 'Ubuntu', sans-serif;
 }
 #headerOfSection {
-  font-weight: bold;
-  margin-bottom: 0;
-  padding: 0;
+
+  margin-bottom: 10px;
+  border-style: solid;
+  border-width: thick;
+  color: #0F753B;
+  padding-bottom: 0;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
 }
 
 #headS {
