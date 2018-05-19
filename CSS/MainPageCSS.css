@@ -55,9 +55,8 @@
 }
 
 #buttonT {
-  border-color: #072233;
-  background-color: #072233;
-  color: #fff;
+  background-color: #033162;
+  border-color: #033162;
 }
 
 #buttonT:hover, #buttonT:focus, #buttonT:active {
