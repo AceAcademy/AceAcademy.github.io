@@ -1,13 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Ubuntu");
-html, body {
+.jumbotron html, body {
   height: 100%;
 }
 figure {
   margin: 0;
-}
-#jumbotronImage{
-  max-width:100%;
-  position: absolute;
 }
 .jumbotron {
   position: relative;
@@ -18,10 +14,11 @@ figure {
   height: inherit;
   color: #fff;
 }
-h1, .h1 {
-  margin-top: 0;
-  margin-bottom: 0;
+#jumbotronimage{
+  max-width:100%;
+  position: absolute;
 }
+
 .btn {
   position: relative;
   padding: 0 15px;

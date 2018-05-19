@@ -16,13 +16,18 @@
 
 }
 #titleDocTools{
+  padding-top: 25px;
   color:#ffff;
   margin-left: 50px;
+}
+#descriptionOfDocTools{
+  color:#ffff;
+  margin-left: 55px;
 }
 #welcomeHubTitle{
   color: #092433;
   margin-left: 50px;
-  padding-top: 75px;
+  padding-top: 25px;
 }
 #titleRow{
   background-color: #FDBF51;
@@ -31,4 +36,5 @@
     color: #092433;
     padding-top: 75px;
     padding: 50px;
+    padding-bottom: 25px;
 }

@@ -81,8 +81,8 @@
 /* .HowItWorks CSS */
 
 /* Jumbotron CSS */
-#jumbotronimage {
-  width: 100%;
+#jumbotronImage {
+  max-width: 100%;
 }
 /* .Jumbotron CSS */
 
