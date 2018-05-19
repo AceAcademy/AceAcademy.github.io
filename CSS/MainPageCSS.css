@@ -81,8 +81,48 @@
 /* .HowItWorks CSS */
 
 /* Jumbotron CSS */
-#jumbotronImage {
-  max-width: 100%;
+.jumbotron{
+  padding-top: 11%;
+  font-family: 'Ubuntu', sans-serif;
+  background: url('/Users/gautiermarechal/Documents/AceAcademy.github.io/CSS/0D1A7669.jpg') top center fixed;
+  background-size: cover;
+  height: 680px;
+}
+#jumbotronButtonS{
+  width: 100px;
+  height: 50px;
+  background-color: #034300;
+  border-color: #034300;
+}
+#jumbotronButtonS:hover{
+  background-color: #2FCD57;
+  border-color: #2FCD57;
+}
+#jumbotronButtonT{
+  width: 100px;
+  height: 50px;
+  background-color: #033162;
+  border-color: #033162;
+}
+#jumbotronButtonT:hover{
+  background-color: #40B5F3;
+  border-color: #40B5F3;
+}
+#jumbotronBody{
+  padding-top: 65px;
+}
+#lineJumbotron{
+  border:none;
+  height: 5px;
+  background-color: #2FCD57;
+  width: 100px;
+  margin-left: 0;
+}
+#mainHeadJumbotron{
+  color: #2FCD57;
+}
+#aceWord{
+  color:#40B5F3;
 }
 /* .Jumbotron CSS */
 
