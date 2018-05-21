@@ -12,7 +12,7 @@
 
     <!--CSS files -->
     <link href="whatisace.css" rel="stylesheet">
-    <link href="/Users/Tanguy/Downloads/animate.css" rel="stylesheet">
+    <link href="grid.css" rel="stylesheet">
 
     <!--Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
@@ -23,183 +23,43 @@
     <title>Ace</title>
   </head>
 
-<body>
+  <body>
 
-<div id = "WhatIsAce">
-  <h1 id="headerOfSection" class="text-center py-3">What is Ace</h1>
-    <div class="container space-big space-both">
+    <div id = "WhatIsAce">
+      <div class="grid">
 
-      <div class="row">
+        <div class="grid__col grid__col--1-of-2" id="section1"></div>
 
-        <!--Column Left-->
-        <div class="col-md-6 divider">
-          <div>
-            <h2 class="text-center py-5">Student</h2>
-          </div>
-
-            <!-- Card -->
-            <div class="card mx-auto animated fadeInLeft">
-              <div class="view overlay">
-                <img class="card-img-top" id="cardsimg" src="Talk.jpg" alt="Talk" />
-                <a>
-                  <div class="mask rgba-white-slight"></div>
-                </a>
-              </div>
-
-              <div class="card-block">
-                <h4 class="card-title">A wide P2P tutoring platform</h4>
-                <hr>
-                <p class="card-text">Any students who have taken a class previously can apply to become a tutor. This brings more tutors on the market, thus more classes offered.</p>
-              </div>
-            </div> <!-- .end Card -->
-
-            <br><br>
-
-            <!-- Card -->
-            <div class="card mx-auto animated fadeInLeft">
-              <div class="view overlay">
-                <img class="card-img-top" id="cardsimg" src="Lesson.jpg" alt="Lesson" />
-                <a>
-                  <div class="mask rgba-white-slight"></div>
-                </a>
-              </div>
-
-              <div class="card-block">
-                <h4 class="card-title">Market rate prices and hassle free payment</h4>
-                <hr>
-                <p class="card-text">A tutor can choose its own pricing for a session. Once decided, the student pays online to Ace, and the amount is only transferred to tutor when both tutor and students submit their tutoring session minutes.</p>
-              </div>
-            </div> <!-- .end Card -->
-        </div>
-        <!--.Column Left-->
-
-        <!--Column Right-->
-        <div class="col-md-6 divider">
-          <div>
-            <h2 class="text-center py-5">Tutor</h2>
-          </div>
-
-          <!-- Card -->
-          <div class="card mx-auto animated fadeInLeft">
-            <div class="view overlay">
-                <img class="card-img-top" id="cardsimg" src="Transcript+Certified.png" alt="Transcript+Certified" />
-                <a>
-                  <div class="mask rgba-white-slight"></div>
-                </a>
-            </div>
-
-            <div class="card-block">
-              <h4 class="card-title">Verified tutor profiles</h4>
-              <hr>
-              <p class="card-text">Students who had a final grade higher than A- can apply to be certified. A tutor will be certified once his transcript is uploaded.</p>
-            </div>
-          </div> <!-- .end Card -->
-
-          <br><br>
-
-          <!-- Card -->
-          <div class="card mx-auto animated fadeInLeft">
-            <div class="view overlay">
-              <img class="card-img-top" id="cardsimg" src="S_T_Chat.png" alt="S_T_Chat" />
-              <a>
-                <div class="mask rgba-white-slight"></div>
-              </a>
-            </div>
-
-
-            <div class="card-block">
-              <h4 class="card-title">Adaptive and Flexible</h4>
-              <hr>
-              <p class="card-text">Tutors model their own session (date, time, content, method).Students pick the criteria that match with their expectations.</p>
-            </div>
-          </div> <!-- .end Card -->
+        <div class="grid__col grid__col--1-of-2" id="section2">
+          <h2 class="text-center">A wide P2P tutoring platform</h2>
+          <p>Any students who have taken a class previously can apply to become a tutor. This brings more tutors on the market, thus more classes offered.</p>
 
         </div>
-        <!--.Column Right-->
+
+        <div class="grid__col grid__col--1-of-2" id="section3">
+          <h2 class="text-center">A wide P2P tutoring platform</h2>
+          <p>Any students who have taken a class previously can apply to become a tutor. This brings more tutors on the market, thus more classes offered.</p>
+        </div>
+
+        <div class="grid__col grid__col--1-of-2" id="section4"></div>
+
+        <div class="grid__col grid__col--1-of-2" id="section5"></div>
+
+        <div class="grid__col grid__col--1-of-2" id="section6">
+          <h2 class="text-center">A wide P2P tutoring platform</h2>
+          <p>Any students who have taken a class previously can apply to become a tutor. This brings more tutors on the market, thus more classes offered.</p>
+        </div>
+
+        <div class="grid__col grid__col--1-of-2" id="section7">
+          <h2 class="text-center">Verified tutor profiles</h2>
+          <p>Students who had a final grade higher than A- can apply to be certified. A tutor will be certified once his transcript is uploaded.</p>
+        </div>
+
+        <div class="grid__col grid__col--1-of-2" id="section8"></div>
+
 
       </div>
     </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- <!-- <div class="container space-big space-both" id="whatisaceContainer">
-  <h1 class="text-center py-3">What is Ace ?</h1>
-
-    <div class="container text-left py-4" id="firstdiv">
-      <h2>A wide P2P tutoring platform</h2>
-      <p>Any students who have taken a class previously can apply to become a tutor.<br />
-        This brings more tutors on the market, thus more classes offered.
-        <img src="Talk.jpg" id="img1" class="float-right rounded" alt="2 guys talking">
-      </p>
-    </div>
-
-    <br/>
-    <br/>
-    <br/>
-
-    <div  class="container text-right py-4" id="seconddiv">
-      <h2>Adaptive and Flexible</h2>
-      <p>Tutors model their own session (date, time, content, method).<br>
-         Students pick the criteria that match with their expectations.
-      </p>
-        <img src="S_T_Chat.png" id ="img2" class="rounded" alt="S/T_Chat">
-    </div>
-
-    <br/>
-    <br/>
-    <br/>
-
-    <div  class="container text-left py-4" id="thirddiv">
-      <h2>Verified tutor profiles</h2>
-      <p>Students who had a final grade higher than A- can apply to be certified.<br>
-         A tutor will be certified once his transcript is uploaded.
-      </p>
-        <img src="Transcript+Certified.png" id ="img3" class="rounded" alt="Transcript + Certified">
-    </div>
-
-    <br/>
-    <br/>
-    <br/>
-
-    <div class="container text-right py-4" id="fourthdiv">
-      <h2>Market rate prices and hassle free payment</h2>
-      <p>A tutor can choose its own pricing for a session.<br>
-         Once decided, the student pays online to Ace, <br>
-         and the amount is only transferred to tutor when <br>
-         both tutor and student submit their tutoring session minutes.
-      </p>
-         <img src="Lesson.jpg" id ="img4" class="rounded" alt="2 guys during a lesson">
-    </div>
-</div> -->
 
 <!--JS LIBRARIES-->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -207,5 +67,5 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <!--.JS LIBRARIES-->
 
-</body>
+  </body>
 </html>

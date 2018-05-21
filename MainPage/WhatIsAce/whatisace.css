@@ -1,25 +1,39 @@
-.card {
+#section1 , #section2 , #section3 , #section4 , #section5 , #section6 , #section7 , #section8 {
   font-family: 'Ubuntu', sans-serif;
   font-size: 15px;
-  width: 352px;
-  height: auto;
+  height: 580px;
+}
+
+section1 , #section3 , #section5 , #section7 {
 
 }
 
-.card-title {
-  font-size: 20px;
-  padding: 5px 5px 5px 5px;
+#section2 , #section3 , #section6 , #section7 {
+  background-color: #FAFAFA;
+}
+
+#section1 {
+  background: url('Lesson.jpg');
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+#section4 {
+  background: url('rawpixel-600787-unsplash.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
 
 }
 
-.card-text {
-  padding: 5px 5px 20px 5px;
+#section5 {
+  background: url('Talk.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+
 }
 
-#cardsimg {
-  width: 352px;
-  height: auto;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  border: 1px solid #021a40;
+#section8 {
+  background: url('cole-keister-291568-unsplash.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
 }
