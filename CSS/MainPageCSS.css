@@ -87,33 +87,81 @@
 /* .Jumbotron CSS */
 
 /* WhatIsAce CSS */
+#WIAsection1 , #WIAsection2 {
+  height: 430px;
 
-.card {
+}
+#WIAsection3 , #WIAsection4 {
+  height: 430px;
+
+}
+#WIAsection5 , #WIAsection6 {
+  height: 430px;
+
+}
+#WIAsection7 , #WIAsection8 {
+  height: 430px;
+
+}
+
+#WIAsection2 , #WIAsection3 , #WIAsection6 , #WIAsection7 {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 15px;
-  width: 352px;
-  height: auto;
+  background-color: #f1f1f1;
+}
+
+#WIAsection2:hover , #WIAsection3:hover , #WIAsection6:hover , #WIAsection7:hover {
+  background-color: #FAFAFA;
+  transition: background-color 100ms linear;
+}
+
+#WIAsection1 {
+  background: url('Lesson.jpg');
+  background-repeat:no-repeat;
+  background-size: cover;
 
 }
 
-.card-title {
-  font-size: 20px;
-  padding: 5px 5px 5px 5px;
+#WIAsection4 {
+  background: url('rawpixel-600787-unsplash.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
 
 }
 
-.card-text {
-  padding: 5px 5px 20px 5px;
+#WIAsection5 {
+  background: url('Talk.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+
 }
 
-#cardsimg {
-  width: 352px;
-  height: auto;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  border: 1px solid #021a40;
+#WIAsection8 {
+  background: url('cole-keister-291568-unsplash.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
 }
 
+#WIAsectiontitle {
+  text-align: center;
+  color: #333;
+	font-size: 54px;
+	font-weight: 300;
+	line-height: 60px;
+	letter-spacing: -0.015em;
+  margin-top: 48px;
+	margin-bottom: 48px;
+	max-width: 600px;
+}
+
+#WIAsectiontext {
+  text-align: center;
+  color: #555;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 36px;
+	text-indent: 36px;
+	max-width: 600px;
+}
 /* .WhatIsAce CSS */
 
 
