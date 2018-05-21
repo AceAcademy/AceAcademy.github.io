@@ -79,6 +79,7 @@
 }
 
 #socialicons {
+  color: #ffff;
   padding-bottom: 10%;
 }
 
@@ -93,15 +94,9 @@
   padding-bottom: 0px;
 }
 
-footer.a {
-  color: #FFFF;
+#footeritems{
+  color:#ffff;
 }
-
-footer.a:hover , footer.a:active {
-  color: 	#3ACB5C;
-  text-decoration: none;
-}
-
 #footeritems:hover , #footeritems:active {
   color: #3ACB5C;
   text-decoration: none;
