@@ -1,9 +1,16 @@
+body{
+  background-color: #FAFAFAFA;
+}
+#hrSeparationHIWvsWH{
+  margin: 0;
+  margin-top: 30px;
+}
 /* HowItWorks CSS */
 #howItWorks{
   font-family: 'Ubuntu', sans-serif;
 }
 #headerOfSection {
-
+  font-family: 'Ubuntu', sans-serif;
   margin-bottom: 10px;
   border-style: solid;
   border-width: thick;
@@ -28,14 +35,25 @@
 }
 #colS{
   background-color: #FAFAFA;
-  margin-right:15px;
-  margin-bottom: 15px;
+  /* border-right-style: solid;
+  border-right-color: #17743D; */
 }
-
+#colS:hover{
+  transition: 0.3s ease;
+  -webkit-transform: scale(0.95);
+        -ms-transform: scale(0.95);
+        transform: scale(0.95);
+}
 #colT{
   background-color: #FAFAFA;
-  margin-right:15px;
-  margin-bottom: 15px;
+  /* border-left-style: solid;
+  border-left-color: #17743D; */
+}
+#colT:hover{
+  transition: 0.3s ease;
+  -webkit-transform: scale(0.95);
+        -ms-transform: scale(0.95);
+        transform: scale(0.95);
 }
 
 #processIconS {
@@ -155,6 +173,124 @@
 
 
 /* WelcomeHub CSS */
+#welcomeHubTitle {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-style: solid;
+  border-width: thick;
+  color: #17743D;
+  padding-bottom: 0;
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+}
+#welcomeHubContainer{
+  font-family: 'Ubuntu', sans-serif;
+}
+#col1Head{
+  background-color: #FAFAFA;
+  color: #17743D;
+}
+#col1General{
+  background-color: #349876;
+  /* margin-right: 10px; */
+  height: 420px;
+}
+#rowInsideDoc:hover{
+   transition:all 0.3s ease;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+#col2General{
+  background-color: #56A4CA;
+  /* margin-right: 10px; */
+  height: 420px;
+}
+
+#titleDoc{
+  padding-top: 25px;
+  color:#ffff;
+  margin-left: 50px;
+  margin-top: 70px;
+  margin-right: 50%;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-radius: 50px;
+}
+#titleDoc:hover{
+  border-color: #092433;
+  color:inherit;
+}
+#titleDoclink{
+  color: #ffff;
+}
+#titleDoclink:hover{
+  text-decoration: none;
+  color: #092433;
+}
+#titleTools{
+  padding-top: 25px;
+  color:#ffff;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-right: 50%;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-radius: 50px;
+}
+#descriptionOfDocTools{
+  color:#ffff;
+  margin-left: 55px;
+  font-size: 27px;
+}
+#titleRow{
+  background-color: #FDBF51;
+}
+#descriptionOfHub{
+    padding-bottom: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#toolsListItem{
+  background-color: inherit;
+  border-style: none;
+  color: white;
+  font-size: 25px;
+}
+#toolsListItem:hover{
+  color: #092433;
+}
+#iconDocuments{
+  font-size: 100px;
+  color: #082333;
+  padding: 0;
+  margin-top: 15%;
+  margin-left: 25%;
+  margin-right: 40%;
+}
+#iconTools{
+  font-size: 100px;
+  color: #082333;
+  padding: 0;
+  margin-top: 15%;
+  margin-left: 25%;
+  margin-right: 40%;
+}
+
+#listDocs{
+  margin-top: 5%;
+  margin-left: 50px;
+  margin-right: 10%;
+}
+#listTools{
+  margin-top: 5%;
+  margin-left: 50px;
+  margin-right: 10%;
+  width: 110%;
+}
 /* .WelcomeHub CSS */
 
 /* ReftoApp CSS */
