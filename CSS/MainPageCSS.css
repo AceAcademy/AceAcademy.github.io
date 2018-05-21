@@ -98,7 +98,7 @@ body{
 .jumbotron{
   padding-top: 11%;
   font-family: 'Ubuntu', sans-serif;
-  background: url('/Users/gautiermarechal/Documents/AceAcademy.github.io/CSS/0D1A7669.jpg') top center fixed;
+  background: url('0D1A7669.jpg') top center fixed;
   background-size: cover;
   height: 680px;
 }
