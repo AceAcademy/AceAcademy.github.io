@@ -1,0 +1,368 @@
+/* Navbar CSS */
+
+.navbar {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #017638;
+  padding-top: 1%;
+  height: 11%;
+}
+
+#rightnavbarlink {
+  color: #FFFF;
+  margin: 13px 12px 12px 10px;
+  text-transform: uppercase;
+}
+
+#navbarbuttonS , #navbarbuttonT {
+  margin: 13px 12px 12px 10px;
+  color: #fff;
+}
+
+#navbarbuttonS {
+  border-color: #20CF51;
+  background-color: #20CF51;
+}
+
+#navbarbuttonT {
+  border-color: #38B4F6;
+  background-color: #38B4F6;
+}
+
+#navbarbuttonT:hover, #navbarbuttonT:focus, #navbarbuttonT:active , #navbarbuttonS:hover , #navbarbuttonS:focus , #navbarbuttonS:active {
+  color: #082333;
+  box-shadow: none;
+}
+
+#rightnavbarlink:hover , #rightnavbarlink:active {
+  color: grey;
+}
+
+/* .Navbar CSS */
+
+/* ReftoApp CSS */
+#reftoapptext {
+  padding-top: 20px;
+}
+
+#Astore {
+  width: 237px;
+  height: 68px;
+}
+
+#Gplay {
+  width: 272px;
+  height: 104px;
+}
+#Astore , #Gplay {
+  display:block;
+        margin-left: auto;
+        margin-right: auto;
+}
+/* .ReftoApp CSS */
+
+/* Footer CSS */
+
+.footer {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #072233;
+  padding-bottom: 5%;
+  margin-top: 0;
+}
+
+#footertext {
+  color: #FFFF;
+}
+
+.img-responsive {
+  width: 50%;
+}
+
+.r {
+  margin: auto;
+}
+
+.fas {
+  float: right;
+  padding-right: 50%;
+  padding-top: 3px;
+}
+
+.fab {
+  font-size: 150%;
+}
+
+.fa-instagram {
+  padding-left: 20%;
+}
+
+.fa-youtube {
+  padding-left: 20%;
+}
+
+#socialicons {
+  color: #ffff;
+  padding-bottom: 10%;
+}
+
+#hrFooter {
+  height: 1px;
+  border-top: 1px solid #3ACB5C;
+  margin: 1em 0;
+  width: 30%;
+}
+
+#titles {
+  padding-bottom: 0px;
+}
+
+#footeritems{
+  color:#ffff;
+}
+#footeritems:hover , #footeritems:active {
+  color: #3ACB5C;
+  text-decoration: none;
+}
+
+#aceCertificationBottomPage {
+  color: #FFFF;
+  margin: auto;
+  text-align: left;
+  padding-top: 5%;
+}
+
+/* .Footer CSS */
+
+/* Floating window CSS */
+
+#submitButton{
+  display: block;
+  height: 52px;
+	width: 155px;
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  border-color: #063260;
+  background-color: #063260;
+}
+
+#submitButton:hover{
+  border-color: #40B5F3;
+  background-color: #40B5F3;
+  color: #063260;
+}
+
+#tutorButtonFloatingWindow{
+  display: block;
+  height: 52px;
+	width: 155px;
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  border-color: #072233;
+  background-color: #072233;
+}
+
+#tutorButton:hover{
+  border-color: #1EB2FC;
+  background-color: #1EB2FC;
+  color: #072233;
+}
+
+#floatButton{
+  height: 85px;
+	width: 85px;
+	position: fixed;
+  right: 40px;
+	top: 80%;
+  border-radius: 100px;
+  background-color: #17743D;
+  border-color: #17743D;
+}
+
+#floatButton:hover{
+  transition:all 0.3s ease;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: #40B5F3;
+  border-color: #40B5F3;
+  color: #092433;
+}
+
+#closeButtonModal{
+  margin: 0;
+  padding-bottom: 0;
+  padding-top: 2px;
+  padding-left: 0;
+  color: #ffff;
+}
+
+#closeButtonModal:hover{
+  color:#42CA61;
+}
+.modal-content{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.modal-header{
+  padding-right: 40%;
+  background-color: #063260;
+  border-radius: none;
+}
+
+/* The container */
+.checkBox-title {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkBox-title input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+/* STUDENT CHECKBOX */
+/* On mouse-over, add a grey background color */
+.checkBox-title:hover #checkBoxStudent ~ .checkmark {
+  background-color: #063260;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkBox-title #checkBoxStudent:checked ~ .checkmark {
+  background-color: #42ca61;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkBox-title #checkBoxStudent:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkBox-title #checkBoxStudent:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/* .STUDENT CHECKBOX */
+
+/* TUTOR CHECKBOX */
+/* On mouse-over, add a grey background color */
+.checkBox-title:hover #checkBoxTutor ~ .checkmark {
+  background-color: #063260;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkBox-title #checkBoxTutor:checked ~ .checkmark {
+  background-color: #40B5F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkBox-title #checkBoxTutor:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkBox-title #checkBoxTutor:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/* .TUTOR CHECKBOX */
+
+.form-title {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  padding-bottom: 2px;
+}
+
+.formInput {
+  padding: 5px;
+}
+
+.modal-title {
+  color:#FFFF;
+}
+
+#becomeMember {
+  color: #063260;
+}
+
+#becomeStudent {
+  color: #49C965;
+}
+
+#becomeTutor{
+  color: #47B6F1;
+}
+
+#checkBoxLabelsModal{
+  color: #063260;
+}
+
+#formStudent{
+  display: none;
+}
+
+#formStudent:after {
+  color: #063260;
+}
+#formTutor {
+  display: none;
+}
+
+#formTutor:after {
+  color: #063260;
+}
+
+/* .Floating window CSS */
