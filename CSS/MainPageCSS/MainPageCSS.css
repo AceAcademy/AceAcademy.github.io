@@ -1,98 +1,6 @@
-body{
+body {
   background-color: #FAFAFAFA;
 }
-#hrSeparationHIWvsWH{
-  margin: 0;
-  margin-top: 30px;
-}
-/* HowItWorks CSS */
-#howItWorks{
-  font-family: 'Ubuntu', sans-serif;
-}
-#headerOfSection {
-  font-family: 'Ubuntu', sans-serif;
-  margin-bottom: 10px;
-  border-style: solid;
-  border-width: thick;
-  color: #0F753B;
-  padding-bottom: 0;
-  width: 25%;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 50px;
-}
-
-#headS {
-  color: #49C965;
-  font-weight: bold;
-  font-size: 500%;
-}
-
-#headT {
-  color:#40B5F3;
-  font-weight: bold;
-  font-size: 500%;
-}
-#colS{
-  background-color: #FAFAFA;
-  /* border-right-style: solid;
-  border-right-color: #17743D; */
-}
-#colS:hover{
-  transition: 0.3s ease;
-  -webkit-transform: scale(0.95);
-        -ms-transform: scale(0.95);
-        transform: scale(0.95);
-}
-#colT{
-  background-color: #FAFAFA;
-  /* border-left-style: solid;
-  border-left-color: #17743D; */
-}
-#colT:hover{
-  transition: 0.3s ease;
-  -webkit-transform: scale(0.95);
-        -ms-transform: scale(0.95);
-        transform: scale(0.95);
-}
-
-#processIconS {
-  color : #42CA61;
-  font-size: 300%;
-}
-
-#buttonS {
-  background-color: #034300;
-  border-color: #034300;
-}
-
-#buttonS:hover, #buttonS:focus, #buttonS:active {
-  border-color: #20CF51;
-  background-color: #20CF51;
-  color: #072233;
-}
-
-#processIconT {
-  color : #38B4F6;
-  font-size: 300%;
-}
-
-#buttonT {
-  background-color: #033162;
-  border-color: #033162;
-}
-
-#buttonT:hover, #buttonT:focus, #buttonT:active {
-  border-color: #38B4F6;
-  background-color: #38B4F6;
-  color: #072233;
-}
-
-#textOfBody {
-  color:#082333;
-}
-
-/* .HowItWorks CSS */
 
 /* Jumbotron CSS */
 .jumbotron{
@@ -218,7 +126,98 @@ body{
 }
 /* .WhatIsAce CSS */
 
+#hrSeparationHIWvsWH {
+  margin: 0;
+  margin-top: 30px;
+}
 
+/* HowItWorks CSS */
+#howItWorks {
+  font-family: 'Ubuntu', sans-serif;
+}
+#headerOfSection {
+  font-family: 'Ubuntu', sans-serif;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-width: thick;
+  color: #0F753B;
+  padding-bottom: 0;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+}
+
+#headS {
+  color: #49C965;
+  font-weight: bold;
+  font-size: 500%;
+}
+
+#headT {
+  color:#40B5F3;
+  font-weight: bold;
+  font-size: 500%;
+}
+#colS{
+  background-color: #FAFAFA;
+  /* border-right-style: solid;
+  border-right-color: #17743D; */
+}
+#colS:hover{
+  transition: 0.3s ease;
+  -webkit-transform: scale(0.95);
+        -ms-transform: scale(0.95);
+        transform: scale(0.95);
+}
+#colT{
+  background-color: #FAFAFA;
+  /* border-left-style: solid;
+  border-left-color: #17743D; */
+}
+#colT:hover{
+  transition: 0.3s ease;
+  -webkit-transform: scale(0.95);
+        -ms-transform: scale(0.95);
+        transform: scale(0.95);
+}
+
+#processIconS {
+  color : #42CA61;
+  font-size: 300%;
+}
+
+#buttonS {
+  background-color: #034300;
+  border-color: #034300;
+}
+
+#buttonS:hover, #buttonS:focus, #buttonS:active {
+  border-color: #20CF51;
+  background-color: #20CF51;
+  color: #072233;
+}
+
+#processIconT {
+  color : #38B4F6;
+  font-size: 300%;
+}
+
+#buttonT {
+  background-color: #033162;
+  border-color: #033162;
+}
+
+#buttonT:hover, #buttonT:focus, #buttonT:active {
+  border-color: #38B4F6;
+  background-color: #38B4F6;
+  color: #072233;
+}
+
+#textOfBody {
+  color:#082333;
+}
+/* .HowItWorks CSS */
 
 /* WelcomeHub CSS */
 #welcomeHubTitle {
@@ -340,22 +339,3 @@ body{
   width: 110%;
 }
 /* .WelcomeHub CSS */
-
-/* ReftoApp CSS */
-
-#Astore {
-  width: 237px;
-  height: 68px;
-}
-
-#Gplay {
-  width: 272px;
-  height: 104px;
-}
-#Astore , #Gplay {
-  display:block;
-        margin-left: auto;
-        margin-right: auto;
-}
-
-/* .ReftoApp CSS */
