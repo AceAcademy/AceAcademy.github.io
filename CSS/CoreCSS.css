@@ -39,27 +39,6 @@
 
 /* .Navbar CSS */
 
-/* ReftoApp CSS */
-#reftoapptext {
-  padding-top: 20px;
-}
-
-#Astore {
-  width: 237px;
-  height: 68px;
-}
-
-#Gplay {
-  width: 272px;
-  height: 104px;
-}
-#Astore , #Gplay {
-  display:block;
-        margin-left: auto;
-        margin-right: auto;
-}
-/* .ReftoApp CSS */
-
 /* Footer CSS */
 
 .footer {

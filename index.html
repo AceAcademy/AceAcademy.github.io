@@ -328,9 +328,7 @@
 <!-- FLOATING WINDOW -->
 
 <!-- FLOATING BUTTON -->
-<div id="floatButton">
-  <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Join Us</button>
-</div>
+<button class="btn btn-primary" data-toggle="modal" data-target="#myModal" id="floatButton">Join Us</button>
 <!--. FLOATING BUTTON -->
 
 <!-- Modal -->
@@ -361,13 +359,13 @@
           </div>
 
           <div class="checkboxes">
-            <label class="checkBox-title">Student
-              <input type="checkbox">
-              <span class="checkmark"></span>
+            <label class="checkBox-title" id="checkBoxLabelsModal">Student
+              <input type="checkbox" id="checkBoxStudent" onclick="appearStudentForm()">
+              <span class="checkmark" id="checkBoxStudentWhole"></span>
             </label>
-            <label class="checkBox-title">Tutor
-              <input type="checkbox">
-              <span class="checkmark"></span>
+            <label class="checkBox-title" id="checkBoxLabelsModal">Tutor
+              <input type="checkbox" id="checkBoxTutor" onclick="appearTutorForm()">
+              <span class="checkmark" id="checkBoxTutorWhole"></span>
             </label>
           </div>
               <button type="submit" class="btn btn-primary" id="submitButton">Submit</button>
@@ -375,17 +373,17 @@
         <hr></hr>
       </div>
 
-      <div id="student-form" class="form-container" data-form-container>
+      <div class="form-container" data-form-container id="formStudent">
         <div class="row">
           <div class="form-title" id="becomeStudent">
             <h2>Student</h2>
           </div>
         </div>
 
-        <form action="/action_page.php" id="formStudent">
-          <div class="form-group">
+        <form action="/action_page.php" >
+          <div class="form-group" >
             <div class="formInput">
-              <label for="name">Which class would you like to Ace?</label>
+              <label for="name" >Which class would you like to Ace?</label>
               <input type="name" class="form-control" id="name" placeholder="Enter Class Number" name="name">
             </div>
             <div class="formInput">
@@ -398,7 +396,7 @@
         <hr></hr>
       </div>
 
-      <div id="tutor-form" class="form-container" data-form-container>
+      <div  class="form-container" data-form-container id="formTutor">
         <div class="row">
           <div class="form-title" id="becomeTutor">
             <h2>Tutor</h2>
@@ -411,7 +409,7 @@
             <input type="name" class="form-control" id="name" placeholder="Enter Class Code (Example: COMM, COMP, FINA ...)" name="name">
             <input type="name" class="form-control" id="name" placeholder="Enter Class Number (Example: 215, 217, 308 ...)" name="name">
           </div>
-          <button type="submit" class="btn btn-primary"id="tutorButton">Submit</button>
+          <button type="submit" class="btn btn-primary"id="submitButton">Submit</button>
         </form>
       </div>
     </div>
@@ -421,6 +419,36 @@
     </div>
   </div>
   </div>
+  <script>
+  // STUDENT FORM APPEAR WITH CHECKBOX CHECKED
+  function appearStudentForm() {
+    // Get the checkbox
+    var checkBox = document.getElementById("checkBoxStudent");
+    // Get the form
+    var formOfStudent = document.getElementById("formStudent");
+
+    // If the checkbox is checked, display the form
+    if (checkBox.checked == true){
+      formOfStudent.style.display = "block";
+    } else {
+      formOfStudent.style.display = "none";
+    }
+  }
+  // TUTOR FORM APPEAR WITH CHECKBOX CHECKED
+  function appearTutorForm() {
+    // Get the checkbox
+    var checkBox = document.getElementById("checkBoxTutor");
+    // Get the form
+    var formOfTutor = document.getElementById("formTutor");
+
+    // If the checkbox is checked, display the form
+    if (checkBox.checked == true){
+      formOfTutor.style.display = "block";
+    } else {
+      formOfTutor.style.display = "none";
+    }
+  }
+</script>
 </div>
 <!--. Modal -->
 
