@@ -5,6 +5,7 @@ body {
 /* Jumbotron CSS */
 .jumbotron{
   padding-top: 11%;
+  margin-bottom: 0;
   font-family: 'Ubuntu', sans-serif;
   background: url('0D1A7669.jpg') top center fixed;
   background-size: cover;
@@ -49,10 +50,22 @@ body {
 /* .Jumbotron CSS */
 
 /* WhatIsAce CSS */
+#WhatIsAce {
+  margin-top: -40px;
+}
+
+#whatisaceheadersection{
+  background-color: #f1f1f1;
+  margin-top: 32px;
+  margin-bottom: -10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 #WIAsection1 , #WIAsection2 {
   height: 430px;
-
 }
+
 #WIAsection3 , #WIAsection4 {
   height: 430px;
 
@@ -123,12 +136,14 @@ body {
 	line-height: 36px;
 	text-indent: 36px;
 	max-width: 600px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 /* .WhatIsAce CSS */
 
 #hrSeparationHIWvsWH {
   margin: 0;
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
 /* HowItWorks CSS */
