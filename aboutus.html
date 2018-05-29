@@ -71,38 +71,78 @@
 <!--.NAVBAR OF THE MAINPAGE-->
 
 <!-- SlideShow -->
-<div id="slideshow" class="carousel slide" data-ride="carousel">
+<div id="slideshow" class="carousel slide" data-interval="4000" data-pause="hover" data-keyboard="true" data-ride="carousel">
 
   <!-- Indicators -->
   <ul class="carousel-indicators">
-    <li data-target="#slide" data-slide-to="0" class="active"></li>
-    <li data-target="#slide" data-slide-to="1"></li>
-    <li data-target="#slide" data-slide-to="2"></li>
+    <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+    <li data-target="#slideshow" data-slide-to="1"></li>
+    <li data-target="#slideshow" data-slide-to="2"></li>
   </ul>
 
-  <!-- The slideshow -->
+  <!-- Slides -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="Test Pictures/chat1.jpeg" alt="Test 1">
+      <img src="Test Pictures/chat1.jpeg"  id="slideimage" alt="Test 1">
     </div>
     <div class="carousel-item">
-      <img src="Test Pictures/chat2.jpeg" alt="Test 2">
+      <img src="Test Pictures/chat2.jpeg" id="slideimage" alt="Test 2">
     </div>
     <div class="carousel-item">
-      <img src="Test Pictures/chat3.jpeg" alt="Test 3">
+      <img src="Test Pictures/chat3.jpeg" id="slideimage" alt="Test 3">
     </div>
   </div>
 
   <!-- Left and right controls -->
-  <a class="carousel-control-prev" href="slide" data-slide="prev">
+  <a class="carousel-control-prev" href="#slideshow" data-slide="prev">
     <span class="carousel-control-prev-icon"></span>
   </a>
-  <a class="carousel-control-next" href="slide" data-slide="next">
+  <a class="carousel-control-next" href="#slideshow" data-slide="next">
     <span class="carousel-control-next-icon"></span>
   </a>
 
 </div>
 <!-- .SlideShow -->
+
+<!-- About Ace -->
+<div id = "AboutAce">
+  <div class="grid">
+  <div id="aboutaceheadersection"> <h1 id="headerOfSection" class="text-center py-3"> About Ace : </h1> </div>
+
+    <hr id="hrSeparationHIWvsWH"></hr>
+
+    <div class="grid__col grid__col--2-of-3" id="ABAsection1"> </div>
+
+    <div class="grid__col grid__col--1-of-3" id="ABAsection2">
+      <h2 id="ABAsectiontitle">What are we ?</h2>
+      <p id="ABAsectiontext">tutoring/help plateform + how to register</p>
+    </div>
+
+    <div class="grid__col grid__col--1-of-3" id="ABAsection3">
+      <h2 id="ABAsectiontitle">Our goal :</h2>
+      <p id="ABAsectiontext">help students + provide more solutions on the market</p>
+    </div>
+
+    <div class="grid__col grid__col--2-of-3" id="ABAsection4"> </div>
+
+    <div class="grid__col grid__col--2-of-3" id="ABAsection5"> </div>
+
+    <div class="grid__col grid__col--1-of-3" id="ABAsection6">
+      <h2 id="ABAsectiontitle">Why Ace ?</h2>
+      <p id="ABAsectiontext">arguments + differences</p>
+    </div>
+
+    <div class="grid__col grid__col--1-of-3" id="ABAsection7">
+      <h2 id="ABAsectiontitle">Who are we</h2>
+      <p id="ABAsectiontext">team</p>
+    </div>
+
+    <div class="grid__col grid__col--2-of-3" id="ABAsection8"> </div>
+
+
+  </div>
+</div>
+<!-- .About Ace -->
 
 <!-- ReftoApp -->
 <div id="reftoapp"
