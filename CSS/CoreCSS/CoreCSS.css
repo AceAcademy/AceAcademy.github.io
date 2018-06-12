@@ -354,17 +354,21 @@
 
 #formStudent{
   display: none;
+  padding: 15px;
 }
 
 #formStudent:after {
   color: #063260;
+  padding: 15px;
 }
 #formTutor {
   display: none;
+  padding: 15px;
 }
 
 #formTutor:after {
   color: #063260;
+  padding: 15px;
 }
 
 #logInForm{
@@ -386,6 +390,10 @@
 #modalHeader{
   border-top-left-radius: 0;
 border-top-right-radius: 0;
+  }
+
+#inputClass{
+margin-bottom: 10px;   
   }
 
 /* .Floating window CSS */
