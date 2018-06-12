@@ -351,10 +351,10 @@
           </div>
         </div>
 
-        <form action="/action_page.php" id="formStandard">
+        <form action="modalform.php" method="post" id="formStandard">
           <div class="form-group">
-            <div class="formInput"><input type="name" class="form-control" id="name" placeholder="First Name" name="name"></div>
-            <div class="formInput"><input type="name" class="form-control" id="name" placeholder="Last Name" name="name"></div>
+            <div class="formInput"><input type="text" class="form-control" id="firstName" placeholder="First Name" name="firstname"></div>
+            <div class="formInput"><input type="text" class="form-control" id="lastName" placeholder="Last Name" name="lastname"></div>
             <div class="formInput"><input type="email" class="form-control" id="email" placeholder="Email" name="email"></div>
           </div>
 
@@ -380,16 +380,11 @@
           </div>
         </div>
 
-        <form action="/action_page.php" >
-          <div class="form-group" >
-            <div class="formInput">
-              <label for="name" >Which class would you like to Ace?</label>
-              <input type="name" class="form-control" id="name" placeholder="Enter Class Number" name="name">
-            </div>
-            <div class="formInput">
-              <label for="name">Which topic especially?</label>
-              <input type="name" class="form-control" id="name" placeholder="Enter Topic/Chapter Name and Number" name="name">
-            </div>
+        <form action="modalform.php" method="post" >
+          <div class="form-group">
+            <label for="name">Which class would you like to Ace?</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter Class Code (Example: COMM, COMP, FINA ...)" name="classcode">
+            <input type="text" class="form-control" id="name" placeholder="Enter Class Number (Example: 215, 217, 308 ...)" name="classnum">
           </div>
             <button type="submit" class="btn btn-primary"id="submitButton">Submit</button>
         </form>
@@ -403,11 +398,11 @@
           </div>
         </div>
 
-        <form action="/action_page.php">
+        <form action="modalform.php" method="post" >
           <div class="form-group">
             <label for="name">Which class would you like to teach?</label>
-            <input type="name" class="form-control" id="name" placeholder="Enter Class Code (Example: COMM, COMP, FINA ...)" name="name">
-            <input type="name" class="form-control" id="name" placeholder="Enter Class Number (Example: 215, 217, 308 ...)" name="name">
+            <input type="text" class="form-control" id="name" placeholder="Enter Class Code (Example: COMM, COMP, FINA ...)" name="classcode">
+            <input type="text" class="form-control" id="name" placeholder="Enter Class Number (Example: 215, 217, 308 ...)" name="classnum">
           </div>
           <button type="submit" class="btn btn-primary"id="submitButton">Submit</button>
         </form>
@@ -459,6 +454,16 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <!--.JS LIBRARIES-->
+
+<!-- JavaScript Modal -->
+<script></script>
+<!-- .JavaScript Modal -->
+
+<!-- PHP reference to file for modal form retrieval of data -->
+<?php
+    include "modalform.php";
+?>
+<!-- .PHP reference to file for modal form retrieval of data -->
 
 </body>
 </html>
