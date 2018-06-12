@@ -367,4 +367,25 @@
   color: #063260;
 }
 
+#logInForm{
+  display: none;
+}
+#loginLink{
+  cursor: pointer;
+}
+#signupLink{
+  cursor: pointer;
+}
+#modalFooter{
+  background-color: #ffff;
+}
+#modalContent{
+  border-radius: 0;
+  border : 0;
+}
+#modalHeader{
+  border-top-left-radius: 0;
+border-top-right-radius: 0;
+  }
+
 /* .Floating window CSS */

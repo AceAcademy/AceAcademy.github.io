@@ -16,7 +16,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 <!--CSS files -->
-<link href="CSS/CoreCSS/CoreCSS.min.css" rel="stylesheet">
+<link href="CSS/CoreCSS/CoreCSS.css" rel="stylesheet">
 <link href="CSS/MainPageCSS/MainPageCSS.min.css" rel="stylesheet">
 <link href="CSS/MainPageCSS/grid.min.css" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
@@ -336,15 +336,15 @@
   <div class="modal-dialog">
 
   <!-- Modal content-->
-  <div class="modal-content">
+  <div class="modal-content" id=modalContent>
 
-    <div class="modal-header">
+    <div class="modal-header" id="modalHeader">
       <button type="button" class="close" data-dismiss="modal" id="closeButtonModal">&times;</button>
         <h4 class="modal-title">Join Us</h4>
     </div>
 
     <div class="modal-body">
-      <div id="info-form" class="form-container" data-form-container>
+      <div id="signUpForm" class="form-container" data-form-container>
         <div class="row">
           <div class="form-title" id="becomeMember">
             <h2>Become a member</h2>
@@ -356,8 +356,11 @@
             <div class="formInput"><input type="text" class="form-control" id="firstName" placeholder="First Name" name="firstname"></div>
             <div class="formInput"><input type="text" class="form-control" id="lastName" placeholder="Last Name" name="lastname"></div>
             <div class="formInput"><input type="email" class="form-control" id="email" placeholder="Email" name="email"></div>
+            <div class="formInput"><input type="password" class="form-control" id="email" placeholder="Create a password" name="password"></div>
           </div>
 
+      <div class="row">
+        <div class="col">
           <div class="checkboxes">
             <label class="checkBox-title" id="checkBoxLabelsModal">Student
               <input type="checkbox" id="checkBoxStudent" onclick="appearStudentForm()">
@@ -368,9 +371,37 @@
               <span class="checkmark" id="checkBoxTutorWhole"></span>
             </label>
           </div>
+        </div>
+        <div class="col">
+          <a id="loginLink" onclick="appearLogInForm()">Already a member? Log in</a>
+        </div>
+      </div>
               <button type="submit" class="btn btn-primary" id="submitButton">Submit</button>
         </form>
         <hr></hr>
+      </div>
+      <div id="logInForm" class="form-container" data-form-container>
+        <div class="row">
+          <div class="form-title" id="becomeMember">
+            <h2>Log In</h2>
+          </div>
+        </div>
+
+        <form action="modalform.php" method="post" id="formStandard">
+          <div class="form-group">
+            <div class="formInput"><input type="email" class="form-control" id="email" placeholder="Email" name="email"></div>
+            <div class="formInput"><input type="password" class="form-control" id="email" placeholder="Enter your password" name="password"></div>
+          </div>
+<div class="row">
+          <div class="col">
+          </div>
+        <div class="col">
+          <a id="signupLink" onclick="appearSignUpForm()" >Not a member? Sign Up</a>
+        </div>
+      </div>
+    </div>
+
+        </form>
       </div>
 
       <div class="form-container" data-form-container id="formStudent">
@@ -409,12 +440,42 @@
       </div>
     </div>
 
-    <div class="modal-footer">
+    <div class="modal-footer" id="modalFooter">
       <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
     </div>
   </div>
   </div>
   <script>
+  // LOGIN FORM APPEAR WHEN LOGIN LINK CLICKED
+  function appearLogInForm() {
+    // Get the form
+    var logInForm = document.getElementById("logInForm");
+
+    // If the link is clicked, display the form
+    if(logInForm.style.display === "none"){
+      logInForm.style.display = "block";
+      signUpForm.style.display = "none";
+    }
+    else{
+      logInForm.style.display = "none";
+      signUpForm.style.display = "block";
+    }
+  }
+  // SIGNUP FORM APPEAR WHEN SIGNUP LINK CLICKED
+  function appearSignUpForm() {
+    // Get the form
+    var signUpForm = document.getElementById("signUpForm");
+
+    // If the link is clicked, display the form
+    if(signUpForm.style.display === "none"){
+      signUpForm.style.display = "block";
+      logInForm.style.display = "none";
+    }
+    else{
+      signUpForm.style.display = "none";
+      logInForm.style.display = "block";
+    }
+  }
   // STUDENT FORM APPEAR WITH CHECKBOX CHECKED
   function appearStudentForm() {
     // Get the checkbox
@@ -429,6 +490,8 @@
       formOfStudent.style.display = "none";
     }
   }
+
+
   // TUTOR FORM APPEAR WITH CHECKBOX CHECKED
   function appearTutorForm() {
     // Get the checkbox
