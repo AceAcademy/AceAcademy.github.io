@@ -32,43 +32,9 @@
 
 <body>
 
-<!--NAVBAR OF THE MAINPAGE-->
-<nav class="navbar navbar-expand-lg fixed-top">
-
-  <!-- Brand/logo -->
-  <a class="navbar-brand" href="icon">
-    <img src="CSS/CoreCSS/AceLogo.png" style="width:100px;">
-  </a>
-
-  <!-- Links -->
-  <div class="container-fluid">
-
-  <ul class="nav navbar-nav navbar-left"> <!-- Left content of the navbar -->
-    <li class="nav-item">
-      <button type="button" class="btn btn-primary" id="navbarbuttonT"> Become a tutor </button>
-    </li>
-
-    <li class="nav-item">
-      <button type="button" class="btn btn-primary"id="navbarbuttonS"> Become a student </button>
-    </li>
-  </ul>
-
-  <ul class="nav navbar-nav navbar-right"> <!-- Right content of the navbar -->
-    <li class="nav-item dropdown">
-        <a href="#" class="nav-link dropdown-toggle" id="rightnavbarlink" data-toggle="dropdown"> Study Features </a>
-        <div class="text-uppercase dropdown-menu">
-          <a href="#" class="dropdown-item" id="navbarbutton">Documents</a>
-          <a href="#" class="dropdown-item" id="navbarbutton">Tools</a>
-        </div>
-    </li>
-
-    <li class="nav-item">
-        <a href="#" class="nav-link" id="rightnavbarlink">About Us</a>
-    </li>
-  </ul>
-
-</nav>
-<!--.NAVBAR OF THE MAINPAGE-->
+<?php
+      include 'navbar.php';
+?>
 
 <!-- JUMBOTRON -->
 <div class="jumbotron">
@@ -328,7 +294,7 @@
 <!-- FLOATING WINDOW -->
 
 <!-- FLOATING BUTTON -->
-<button class="btn btn-primary" data-toggle="modal" data-target="#myModal" id="floatButton">Join Us</button>
+<a class="btn btn-primary" href="formmodaludemy.php" id="floatButton" style="font-family: 'Ubuntu', sans-serif;"><br>Join Us</a>
 <!--. FLOATING BUTTON -->
 
 <!-- Modal -->
@@ -349,14 +315,16 @@
           <div class="form-title" id="becomeMember">
             <h2>Become a member</h2>
           </div>
+          <div id="error"><?php echo $error; ?></div>
         </div>
 
-        <form action="modalform.php" method="post" id="formStandard">
+        <form  action="formmodaludemy.php" method="post" id="formStandard">
           <div class="form-group">
             <div class="formInput"><input type="text" class="form-control" id="firstName" placeholder="First Name" name="firstname"></div>
             <div class="formInput"><input type="text" class="form-control" id="lastName" placeholder="Last Name" name="lastname"></div>
             <div class="formInput"><input type="email" class="form-control" id="email" placeholder="Email" name="email"></div>
             <div class="formInput"><input type="password" class="form-control" id="email" placeholder="Create a password" name="password"></div>
+            <input type="hidden" name ="signUp" value="1">
           </div>
 
       <div class="row">
@@ -373,7 +341,8 @@
           </div>
         </div>
         <div class="col">
-          <a id="loginLink" onclick="appearLogInForm()">Already a member? Log in</a>
+          <a id="loginLink" onclick="appearLogInForm()">Already a member? Log in</a><br>
+          <span><p>Stay Logged In<input type="checkbox" name = "stayLoggedIn" value=1></p></span>
         </div>
       </div>
               <button type="submit" class="btn btn-primary" id="submitButton">Submit</button>
@@ -385,18 +354,21 @@
           <div class="form-title" id="becomeMember">
             <h2>Log In</h2>
           </div>
+          <div id="error"><?php echo $error; ?></div>
         </div>
 
-        <form action="modalform.php" method="post" id="formStandard">
+        <form action="formmodaludemy.php" method="post" id="formStandard">
           <div class="form-group">
             <div class="formInput"><input type="email" class="form-control" id="email" placeholder="Email" name="email"></div>
             <div class="formInput"><input type="password" class="form-control" id="email" placeholder="Enter your password" name="password"></div>
+            <input type="hidden" name ="signUp" value="0">
           </div>
 <div class="row">
           <div class="col">
           </div>
         <div class="col">
           <a id="signupLink" onclick="appearSignUpForm()" >Not a member? Sign Up</a>
+          <span><p>Stay Logged In<input type="checkbox" name = "stayLoggedIn" value=1></p></span>
         </div>
       </div>
     </div>
@@ -411,7 +383,7 @@
           </div>
         </div>
 
-        <form action="modalform.php" method="post" >
+        <form action="modal.php" method="post" >
           <div class="form-group">
             <label for="name">Which class would you like to Ace?</label>
             <input type="text" class="form-control" id="inputClass" placeholder="Enter Class Code (Example: COMM, COMP, FINA ...)" name="classcode">
@@ -429,7 +401,7 @@
           </div>
         </div>
 
-        <form action="modalform.php" method="post" >
+        <form action="modal.php" method="post" >
           <div class="form-group">
             <label for="name">Which class would you like to teach?</label>
             <input type="text" class="form-control" id="inputClass" placeholder="Enter Class Code (Example: COMM, COMP, FINA ...)" name="classcode">
@@ -518,15 +490,8 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <!--.JS LIBRARIES-->
 
-<!-- JavaScript Modal -->
-<script></script>
-<!-- .JavaScript Modal -->
 
-<!-- PHP reference to file for modal form retrieval of data -->
-<?php
-    include "modalform.php";
-?>
-<!-- .PHP reference to file for modal form retrieval of data -->
+
 
 </body>
 </html>
