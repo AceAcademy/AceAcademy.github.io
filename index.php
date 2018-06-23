@@ -97,7 +97,7 @@
 <br><br>
 
 <!-- HOW IT WORKS DIVISION -->
-<div id = "howItWorks">
+<div id= "howItWorks">
   <h1 id="headerOfSection" class="text-center py-3">How it works</h1>
     <div class="row">
       <!--Column Left-->

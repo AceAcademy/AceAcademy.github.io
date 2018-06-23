@@ -1,0 +1,32 @@
+.container{
+  padding-top: 30px;
+
+}
+#descriptionStudentProcess{
+  padding-bottom: 30px;
+}
+
+#processForStudent{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#processForStudent:hover{
+  transition: 0.5s ease;
+  box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.fa-mobile-alt{
+  padding: 0;
+  font-size: 150px;
+  padding-right: 100px;
+  padding-top: 50px;
+}
+.fa-mobile-alt:hover{
+  transition: 0.3s ease;
+  -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+  cursor: pointer;
+}
+#reftoapp{
+  padding-top: 50px;
+}
